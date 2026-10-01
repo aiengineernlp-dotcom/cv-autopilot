@@ -1,0 +1,222 @@
+[
+  {
+    "key": "data-analyst",
+    "email": "test-data-analyst@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Amina Data",
+    "target_title": "Data Analyst",
+    "extraction": {
+      "headline": "Data Analyst",
+      "contact": {"phone": "+971 50 111 0001", "location": "Dubai, UAE"},
+      "experiences": [
+        {"position_title": "Data Analyst", "company_location": "Acme Corp, Remote", "date_range": "2022-2024",
+         "bullets": ["Built dashboards to visualize and communicate data insights", "Used SQL and Python to clean and analyze datasets for weekly business reporting"]}
+      ],
+      "education": [{"degree": "BSc Statistics", "institution": "University of Nairobi", "date": "2021"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Meridian Retail Group",
+      "title": "Data Analyst",
+      "description": "We are looking for a Data Analyst to join our BI team. SQL and data visualization skills required. Strong experience with Power BI and Tableau is a must -- you will be building executive dashboards from day one."
+    }
+  },
+  {
+    "key": "it-support",
+    "email": "test-it-support@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Karim IT",
+    "target_title": "IT Support Engineer",
+    "extraction": {
+      "headline": "IT Support Specialist",
+      "contact": {"phone": "+971 50 111 0002", "location": "Dubai, UAE"},
+      "experiences": [
+        {"position_title": "IT Support Specialist", "company_location": "Nexora Systems, Dubai, UAE", "date_range": "Jan 2023 - Present",
+         "bullets": ["Provided first and second-line support for 150+ employees across Windows and macOS endpoints", "Managed user accounts and permissions in Active Directory and Microsoft 365"]}
+      ],
+      "education": [{"degree": "Diploma in IT", "institution": "Dubai Technical College", "date": "2022"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "CloudNova Technologies",
+      "title": "IT Support Engineer",
+      "description": "Responsibilities include troubleshooting Windows/macOS issues, managing Active Directory accounts, and supporting our AWS cloud infrastructure. Experience scripting in Python or PowerShell to automate routine tasks is a strong plus. Ticketing system experience (Zendesk or similar) required."
+    }
+  },
+  {
+    "key": "seo-specialist",
+    "email": "test-seo@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Sami SEO",
+    "target_title": "SEO Specialist",
+    "extraction": {
+      "headline": "SEO & Content Strategist",
+      "contact": {"phone": "+971 50 111 0003", "location": "Remote"},
+      "experiences": [
+        {"position_title": "SEO & Content Strategist", "company_location": "TheKnowHow Research And Consulting, Remote", "date_range": "2022-2026",
+         "bullets": ["Designed and executed Technical SEO and Semantic SEO strategies for a healthcare platform", "Built internal linking systems and schema markup to improve organic search visibility"]}
+      ],
+      "education": [{"degree": "BA Communications", "institution": "Makerere University", "date": "2021"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Horizon Digital Agency",
+      "title": "SEO Specialist",
+      "description": "We need an SEO Specialist to manage organic search performance for multiple client accounts. Google Ads certification and hands-on PPC campaign management experience required, in addition to strong technical SEO skills."
+    }
+  },
+  {
+    "key": "real-estate",
+    "email": "test-real-estate@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Layla Realty",
+    "target_title": "Real Estate Sales Consultant",
+    "extraction": {
+      "headline": "Sales & Administrative Support",
+      "contact": {"phone": "+971 50 111 0004", "location": "Abu Dhabi, UAE"},
+      "experiences": [
+        {"position_title": "Sales & Administrative Support", "company_location": "Propshah Real Estate, Abu Dhabi, UAE", "date_range": "Jun 2024 - Present",
+         "bullets": ["Coordinated property viewings and administrative documentation for a portfolio of 30+ residential listings", "Supported the sales team in following up with leads via phone and email, contributing to 8 closed rental agreements in 6 months"]}
+      ],
+      "education": [{"degree": "Diploma in Business Administration", "institution": "Abu Dhabi Polytechnic", "date": "2023"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Emaar Prime Realty",
+      "title": "Real Estate Sales Consultant",
+      "description": "We are seeking a Real Estate Sales Consultant to manage the full sales cycle for off-plan and secondary market properties. Must have a valid RERA broker license and proven experience closing property deals independently, including negotiating final sale prices with clients. Fluency in Mandarin is a strong plus."
+    }
+  },
+  {
+    "key": "nurse",
+    "email": "test-nurse@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Grace Nurse",
+    "target_title": "Registered Nurse",
+    "extraction": {
+      "headline": "Staff Nurse",
+      "contact": {"phone": "+971 50 111 0005", "location": "Kampala, Uganda"},
+      "experiences": [
+        {"position_title": "Staff Nurse", "company_location": "Kampala General Hospital, Kampala, Uganda", "date_range": "2021-2023",
+         "bullets": ["Monitored vital signs and administered medication for 20+ patients per shift on a general ward", "Coordinated with physicians to update patient care plans and documented care in patient charts"]}
+      ],
+      "education": [{"degree": "Diploma in Nursing", "institution": "Mulago School of Nursing", "date": "2020"}],
+      "certifications": [{"name": "Basic Life Support (BLS)", "status": "Active"}]
+    },
+    "posting": {
+      "company": "Dubai Health Partners",
+      "title": "Registered Nurse - ICU",
+      "description": "Seeking a Registered Nurse for our Intensive Care Unit. Must hold a valid UAE DHA license, have critical care certification, and hands-on experience managing ventilators and hemodynamic monitoring for ICU patients."
+    }
+  },
+  {
+    "key": "hotel-frontdesk",
+    "email": "test-hotel@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Peter Hotel",
+    "target_title": "Front Desk Supervisor",
+    "extraction": {
+      "headline": "Secretary & Guest Relations",
+      "contact": {"phone": "+971 50 111 0006", "location": "Kampala, Uganda"},
+      "experiences": [
+        {"position_title": "Secretary & Guest Relations", "company_location": "Serena Hotel, Kampala, Uganda", "date_range": "Jun 2022 - Dec 2023",
+         "bullets": ["Managed guest check-in/check-out and handled reservation changes for a 120-room hotel", "Resolved guest complaints on the spot, maintaining high satisfaction scores"]}
+      ],
+      "education": [{"degree": "Certificate in Hospitality Management", "institution": "Uganda Hotel and Tourism Training Institute", "date": "2021"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Address Hotels + Resorts",
+      "title": "Front Desk Supervisor",
+      "description": "We are hiring a Front Desk Supervisor to lead a team of 5+ front desk agents. Certification in Opera PMS required, along with proven supervisory experience in a luxury hotel environment."
+    }
+  },
+  {
+    "key": "accountant",
+    "email": "test-accountant@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Fatima Accounts",
+    "target_title": "Senior Accountant",
+    "extraction": {
+      "headline": "Junior Accountant",
+      "contact": {"phone": "+971 50 111 0007", "location": "Abu Dhabi, UAE"},
+      "experiences": [
+        {"position_title": "Junior Accountant", "company_location": "Meridian Trading LLC, Abu Dhabi, UAE", "date_range": "2023 - Present",
+         "bullets": ["Reconciled accounts payable and receivable on a monthly basis", "Prepared monthly financial reports using Excel and QuickBooks"]}
+      ],
+      "education": [{"degree": "BCom Accounting", "institution": "Ajman University", "date": "2022"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Falcon Holdings Group",
+      "title": "Senior Accountant",
+      "description": "We are looking for a Senior Accountant to lead our finance function. CPA or ACCA certification required, along with IFRS reporting experience and prior experience managing a team of junior accountants."
+    }
+  },
+  {
+    "key": "customer-service",
+    "email": "test-customer-service@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Brian Support",
+    "target_title": "Customer Service Team Lead",
+    "extraction": {
+      "headline": "Customer Service Representative",
+      "contact": {"phone": "+971 50 111 0008", "location": "Nairobi, Kenya"},
+      "experiences": [
+        {"position_title": "Customer Service Representative", "company_location": "Zenith Telecom, Nairobi, Kenya", "date_range": "2022-2024",
+         "bullets": ["Handled 60+ inbound calls daily, resolving billing disputes and service issues", "Maintained a 90% customer satisfaction score across handled tickets"]}
+      ],
+      "education": [{"degree": "Diploma in Business", "institution": "Kenya Institute of Management", "date": "2021"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Orbit Communications",
+      "title": "Customer Service Team Lead",
+      "description": "We're hiring a Customer Service Team Lead to manage a team of 10 agents. Salesforce CRM experience required, along with proven team leadership and coaching experience."
+    }
+  },
+  {
+    "key": "construction",
+    "email": "test-construction@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "David Builder",
+    "target_title": "Construction Site Supervisor",
+    "extraction": {
+      "headline": "Site Foreman",
+      "contact": {"phone": "+971 50 111 0009", "location": "Kigali, Rwanda"},
+      "experiences": [
+        {"position_title": "Site Foreman", "company_location": "BuildRight Contractors, Kigali, Rwanda", "date_range": "2020-2023",
+         "bullets": ["Supervised a crew of 12 laborers on residential construction sites", "Ensured daily safety compliance and coordinated material deliveries on site"]}
+      ],
+      "education": [{"degree": "Certificate in Construction Technology", "institution": "Kigali Polytechnic", "date": "2019"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "Al Habtoor Construction",
+      "title": "Construction Site Supervisor",
+      "description": "Seeking a Construction Site Supervisor for high-rise commercial projects. OSHA certification required, along with experience reading AutoCAD drawings and managing commercial-scale construction crews."
+    }
+  },
+  {
+    "key": "teacher",
+    "email": "test-teacher@cvautopilot.dev",
+    "password": "TestPersona123!",
+    "full_name": "Ruth Teacher",
+    "target_title": "Primary School Teacher",
+    "extraction": {
+      "headline": "Primary School Teacher",
+      "contact": {"phone": "+971 50 111 0010", "location": "Kampala, Uganda"},
+      "experiences": [
+        {"position_title": "Primary School Teacher", "company_location": "Green Valley Primary School, Kampala, Uganda", "date_range": "2021-2024",
+         "bullets": ["Taught a class of 35 students across Math and English following the national curriculum", "Developed lesson plans and assessed student progress through regular tests"]}
+      ],
+      "education": [{"degree": "Bachelor of Education", "institution": "Kyambogo University", "date": "2020"}],
+      "certifications": []
+    },
+    "posting": {
+      "company": "GEMS International School",
+      "title": "Primary School Teacher (IB Curriculum)",
+      "description": "We are seeking a Primary School Teacher experienced in the IB Primary Years Programme (PYP). IB PYP certification and prior experience teaching an international curriculum required."
+    }
+  }
+]

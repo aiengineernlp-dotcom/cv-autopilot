@@ -1,0 +1,6 @@
+{
+  "_note": "Boîtes mail IMAP à interroger. Le mot de passe ne va JAMAIS ici — il va dans .env sous IMAP_PASSWORD_<LABEL_MAJUSCULE>.",
+  "accounts": [
+    { "label": "tensoratech", "host": "webmail.tensoratech.com", "port": 993, "username": "ermanwilliantag@tensoratech.com" }
+  ]
+}

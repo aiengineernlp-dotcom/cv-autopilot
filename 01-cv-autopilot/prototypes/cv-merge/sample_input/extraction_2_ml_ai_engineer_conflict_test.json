@@ -1,0 +1,163 @@
+{
+  "headline": "ML / AI ENGINEER",
+  "contact": {
+    "email": "ermanwilliantag@tensoratech.com",
+    "phone": "+33 6 12 34 56 78",
+    "linkedin_url": "linkedin.com/in/erman-tag",
+    "github_url": "github.com/aiengineernlp-dotcom",
+    "location": "Abu Dhabi, UAE",
+    "additional_notes": [
+      "Emirates ID valid until 15/09/2026",
+      "Nationality: Cameroonian"
+    ]
+  },
+  "summary": "ML/AI Engineer in training with nearly 4 years of data & software engineering experience and hands-on practice in classical Machine Learning (Logistic Regression, Random Forest, SVM, clustering). Built and deployed a churn-prediction model on a 112,650-row e-commerce dataset, and reusable ML-ready data pipelines from raw multi-source data to feature engineering and EDA. Currently completing a 60-session intensive AI/ML/DS training program (LogicMojo, through Sep 2026) covering Deep Learning, NLP, Transformers, LLMs, and RAG architectures, alongside the IBM AI Engineering Professional Certificate. Bilingual (French/English).",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "company_location": "The KnowHow Research And Consulting — Abu Dhabi, UAE",
+      "date_range": "Sep 2024 – Present",
+      "bullets": [
+        "Built and evaluated a supervised ML churn-prediction model (Logistic Regression, Scikit-learn) on customer transaction data, translating results into stakeholder-facing dashboards (Pandas, Matplotlib, Seaborn, Plotly)",
+        "Engineered ML-ready datasets from multi-source pipelines (PostgreSQL, MySQL, REST APIs) across 11 business domains, including feature engineering and structured EDA",
+        "Applied statistical analysis (hypothesis testing, correlation, distribution analysis) to validate data quality before model training",
+        "Automated reporting systems using Python (Django/Flask), reducing manual analysis time by 4+ hours/week"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "company_location": "Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE",
+      "date_range": "Jun 2022 – Sep 2024",
+      "bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery and resource allocation for 50+ users",
+        "Built and optimized ETL pipelines integrating MySQL/PostgreSQL and third-party APIs, feeding the data infrastructure later reused for ML pipeline work"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Engineering (4 years)",
+      "institution": "Université de Dschang, Cameroon",
+      "date": "Graduated 2019"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Machine Learning / AI Engineer — CodeCademy",
+      "status": "Completed"
+    },
+    {
+      "name": "IBM AI Engineering Professional Certificate",
+      "status": "Completed"
+    },
+    {
+      "name": "Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions) — covers supervised/unsupervised ML, deep learning, NLP, transformers, RAG, LLMs",
+      "status": "In progress"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Machine Learning",
+      "items": [
+        "Scikit-learn",
+        "Logistic Regression",
+        "Random Forest",
+        "SVM",
+        "KNN",
+        "Naive Bayes",
+        "clustering",
+        "ROC-AUC",
+        "F1-Score",
+        "GridSearch",
+        "SMOTE",
+        "SHAP Values"
+      ]
+    },
+    {
+      "category": "Deep Learning & NLP (in training)",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "backpropagation",
+        "Transformers (BERT, GPT)",
+        "HuggingFace",
+        "tokenization",
+        "embeddings"
+      ]
+    },
+    {
+      "category": "LLMs & RAG (in training)",
+      "items": [
+        "GPT architecture",
+        "context windows",
+        "prompt engineering",
+        "FAISS",
+        "ChromaDB",
+        "semantic search",
+        "LangChain",
+        "CrewAI",
+        "LangGraph"
+      ]
+    },
+    {
+      "category": "Feature Engineering",
+      "items": [
+        "Temporal extraction",
+        "date-delta",
+        "one-hot/target encoding",
+        "groupby aggregations",
+        "customer LTV"
+      ]
+    },
+    {
+      "category": "Data Pipeline",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "REST APIs"
+      ]
+    },
+    {
+      "category": "Statistics",
+      "items": [
+        "Hypothesis testing (Z-test, T-test, Chi-square)",
+        "correlation",
+        "distribution analysis",
+        "outlier detection"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Git & GitHub",
+        "Streamlit",
+        "Jupyter Notebook",
+        "Google Colab",
+        "Django",
+        "Flask"
+      ]
+    }
+  ],
+  "key_project": {
+    "title": "DataSphere360 — Customer Churn Prediction",
+    "subtitle": "Personal Framework Project",
+    "year": "2026",
+    "bullets": [
+      "Built a customer churn prediction model (Logistic Regression, Scikit-learn) on a 112,650-row, 9-table e-commerce dataset, following a full ML workflow: ingestion → cleaning → feature engineering → training → evaluation",
+      "Engineered 86 features (temporal extraction, date-delta calculations, one-hot encoding, business KPIs — customer LTV, purchase frequency) to prepare ML-ready data from raw transactional records",
+      "Segmented customers (new vs. repeat, high vs. low value) to interpret model outputs and generate stakeholder-facing insights",
+      "Second project — CO2 Emission Tracker: regression-based prediction and visualization (Python, Seaborn) applied to environmental datasets"
+    ]
+  },
+  "extraction_notes": [
+    "SENSITIVE DATA PRESENT: Nationality (Cameroonian), Emirates ID validity date (15/09/2026). These must be confirmed by user before use in any generated CV or document.",
+    "Bilingual (French/English) mentioned in summary — linguistic competency confirmed in text.",
+    "The LogicMojo training is described as 'March–September 2026' — this appears to be a future date; confirm whether this is a typo or the actual schedule.",
+    "Key project year is listed as 2026 — may be a typo or future projection; verify with user.",
+    "Company name formatting varies slightly between contact info domain (tensoratech.com) and listed employers; extracted exactly as written."
+  ]
+}

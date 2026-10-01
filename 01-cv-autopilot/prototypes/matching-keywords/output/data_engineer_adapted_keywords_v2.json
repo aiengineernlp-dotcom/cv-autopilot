@@ -1,0 +1,148 @@
+{
+  "keywords": [
+    "data engineer",
+    "data engineering",
+    "data pipeline",
+    "etl",
+    "elt",
+    "data ingestion",
+    "data infrastructure",
+    "data warehouse",
+    "feature engineering",
+    "data quality",
+    "data modeling",
+    "pipeline automation",
+    "backend developer",
+    "backend engineer"
+  ],
+  "excluded_unsupported": [
+    {
+      "term": "snowflake",
+      "reason": "Cloud data warehouse not mentioned in profile — typical requirement for Data Engineer roles but not proven in candidate's experience"
+    },
+    {
+      "term": "redshift",
+      "reason": "AWS data warehouse not present in profile — often expected for modern data engineering positions"
+    },
+    {
+      "term": "bigquery",
+      "reason": "Google Cloud data warehouse not mentioned — common in data engineering roles but absent from candidate's experience"
+    },
+    {
+      "term": "airflow",
+      "reason": "Orchestration tool not covered in profile — typical requirement for pipeline scheduling but not demonstrated"
+    },
+    {
+      "term": "spark",
+      "reason": "Big data processing framework not present — may be required for large-scale roles but candidate has not used it"
+    },
+    {
+      "term": "kafka",
+      "reason": "Stream processing platform not mentioned — relevant for real-time pipelines but not in candidate's toolset"
+    },
+    {
+      "term": "aws",
+      "reason": "Cloud platform experience not mentioned — often expected but not proven in profile"
+    },
+    {
+      "term": "azure",
+      "reason": "Cloud platform not covered — increasingly common requirement but absent from experience"
+    },
+    {
+      "term": "gcp",
+      "reason": "Google Cloud Platform not mentioned — relevant for cloud-native data engineering but not demonstrated"
+    },
+    {
+      "term": "docker",
+      "reason": "Containerization not covered — relevant for production pipelines but not mentioned in profile"
+    },
+    {
+      "term": "kubernetes",
+      "reason": "Container orchestration not present — increasingly common for scalable data infrastructure but not proven"
+    },
+    {
+      "term": "terraform",
+      "reason": "Infrastructure as Code not mentioned — modern data engineering practice but absent from candidate's experience"
+    }
+  ],
+  "excluded_too_granular": [
+    {
+      "term": "pandas",
+      "reason": "Library-level detail — part of Python data processing but too specific for job matching (appears in generic data work descriptions)"
+    },
+    {
+      "term": "numpy",
+      "reason": "Low-level library — foundational but not distinctive for Data Engineer role matching"
+    },
+    {
+      "term": "sqlalchemy",
+      "reason": "ORM library — implementation detail rather than role-defining skill"
+    },
+    {
+      "term": "temporal feature extraction",
+      "reason": "Specific technique within feature engineering — too granular for job title/description matching"
+    },
+    {
+      "term": "one-hot encoding",
+      "reason": "Specific encoding method — part of feature engineering but too detailed for matching"
+    },
+    {
+      "term": "pearson correlation",
+      "reason": "Statistical method — overly specific technique unlikely to appear in job descriptions"
+    },
+    {
+      "term": "spearman correlation",
+      "reason": "Statistical method — too granular for job matching, part of general data analysis"
+    }
+  ],
+  "excluded_too_generic": [
+    {
+      "term": "python",
+      "reason": "General-purpose language used across all data roles — too common to distinguish Data Engineer positions"
+    },
+    {
+      "term": "postgresql",
+      "reason": "General database technology — appears in backend, analytics, and data science roles, not distinctive"
+    },
+    {
+      "term": "mysql",
+      "reason": "General database — used broadly across backend and data roles, lacks specificity"
+    },
+    {
+      "term": "sql",
+      "reason": "Foundational skill for all data roles — too generic to distinguish Data Engineer from analyst/scientist positions"
+    },
+    {
+      "term": "django",
+      "reason": "General web framework — relevant for backend roles broadly, not specific to data engineering"
+    },
+    {
+      "term": "flask",
+      "reason": "General web framework — used across backend roles, not distinctive for data engineering"
+    },
+    {
+      "term": "rest api",
+      "reason": "General integration pattern — appears in all backend/data roles, lacks specificity"
+    },
+    {
+      "term": "api",
+      "reason": "Too broad — matches generic descriptions across engineering roles"
+    },
+    {
+      "term": "git",
+      "reason": "Universal version control — expected across all engineering roles, not distinctive"
+    },
+    {
+      "term": "github",
+      "reason": "Universal platform — appears in all engineering job contexts, not role-specific"
+    },
+    {
+      "term": "csv",
+      "reason": "Generic data format — too common across all data work, not distinctive"
+    },
+    {
+      "term": "json",
+      "reason": "Universal data format — appears in all backend/data contexts, lacks specificity"
+    }
+  ]
+}

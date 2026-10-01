@@ -1,0 +1,19 @@
+fastapi>=0.115
+uvicorn[standard]>=0.32
+sqlalchemy[asyncio]>=2.0
+asyncpg>=0.30
+alembic>=1.14
+psycopg2-binary>=2.9  # Alembic tourne en synchrone -- l'app utilise asyncpg, les migrations non
+pydantic[email]>=2.9
+pydantic-settings>=2.6
+python-jose[cryptography]>=3.3
+bcrypt>=4.2
+python-multipart>=0.0.12
+python-dotenv>=1.0
+cryptography>=43
+requests>=2.31
+
+# Réutilisé par les services d'onboarding (extraction/adaptation/mots-clés/fusion),
+# déjà validés en prototype (voir ../prototypes/)
+openai>=1.50
+python-docx>=1.1

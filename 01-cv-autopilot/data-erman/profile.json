@@ -1,0 +1,101 @@
+{
+  "personal": {
+    "firstName": "Erman",
+    "lastName": "Willian Tagaintchuem",
+    "fullName": "ERMAN WILLIAN TAGAINTCHUEM",
+    "email": "ermanwilliantag@tensoratech.com",
+    "phone": "+971 55 515 4764",
+    "linkedin": "linkedin.com/in/erman-tag",
+    "github": "github.com/aiengineernlp-dotcom",
+    "locationUAE": "Abu Dhabi, UAE",
+    "emiratesIDExpiry": "15/09/2026",
+    "nationality": "Cameroonian"
+  },
+
+  "canada": {
+    "expressEntry": "E004992217",
+    "crsScore": "410",
+    "workPermit": "Francophone Mobility Program — LMIA-exempt, Code C16",
+    "wesECA": "WES ECA #7247699IMM (January 30, 2026)",
+    "wesEquivalency": "Bachelor's degree (four years)",
+    "frenchLevel": "C1/C2 — TCF Canada certified",
+    "englishLevel": "Fluent"
+  },
+
+  "experience": [
+    {
+      "title": "Data & Reporting Analyst (Web & IT)",
+      "company": "The KnowHow Research And Consulting",
+      "location": "Abu Dhabi, UAE",
+      "startDate": "Sep 2024",
+      "endDate": "Present",
+      "bullets": [
+        "Engineered automated reporting systems using Python (Django/Flask) processing data across 11 domains, reducing manual reporting time by 4+ hours per week",
+        "Built and maintained interactive KPI dashboards using Pandas, Matplotlib, Seaborn, and Plotly, translating complex datasets into actionable business insights for senior stakeholders",
+        "Integrated data pipelines from multiple sources (MySQL, PostgreSQL, REST APIs), consolidating reporting for 11 web domains into a unified analytics infrastructure",
+        "Deployed performance monitoring dashboards tracking SEO, traffic, and content KPIs in near real-time across the full domain portfolio",
+        "Developed automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking",
+        "Administered Microsoft 365 tenant (user provisioning, licensing, security policies) for a team of 10+, ensuring data access governance",
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements and deliver data-driven strategic presentations"
+      ]
+    },
+    {
+      "title": "IT Applications Manager / Data & Backend Developer",
+      "company": "Alnajm Alwardi Project Management",
+      "location": "Dubai / Abu Dhabi, UAE",
+      "startDate": "Jun 2022",
+      "endDate": "Sep 2024",
+      "bullets": [
+        "Developed custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users",
+        "Performed end-to-end data analysis, modeling, and reporting to support project delivery decisions and resource allocation",
+        "Built user-friendly interfaces displaying key performance indicators, improving data accessibility for non-technical managers",
+        "Conducted data quality assurance, optimization, and pipeline maintenance ensuring data integrity across all reporting outputs",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data solutions for project tracking"
+      ]
+    }
+  ],
+
+  "education": {
+    "degree": "Bachelor's Degree in Computer Engineering (4 years)",
+    "school": "Université de Dschang, Cameroon",
+    "graduationYear": "2019",
+    "major": "Computer Engineering"
+  },
+
+  "projects": [
+    {
+      "title": "DataSphere360 — Customer E-commerce Intelligence System",
+      "link": "github.com/aiengineernlp-dotcom",
+      "bullets": [
+        "Built end-to-end customer analytics platform using Python (Pandas, Scikit-learn, Matplotlib) to segment e-commerce customers and predict churn",
+        "Implemented logistic regression churn prediction model with interactive reporting dashboard for business stakeholders"
+      ]
+    },
+    {
+      "title": "CO2 Emission Tracker — Data Visualization & Prediction",
+      "link": "github.com/aiengineernlp-dotcom",
+      "bullets": [
+        "Developed data visualization and prediction model tracking CO2 emissions across multiple datasets using Python and Seaborn"
+      ]
+    }
+  ],
+
+  "certifications": [
+    "Machine Learning / AI Engineer — CodeCademy (Completed)",
+    "IBM AI Engineering Professional Certificate — In progress, expected Q3 2026",
+    "Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions)",
+    "Verified International Academic Qualifications (credential verification)"
+  ],
+
+  "languages": [
+    { "language": "French", "level": "C1/C2 — Native" },
+    { "language": "English", "level": "Fluent" }
+  ],
+
+  "_instructions": {
+    "howToUpdate": "Quand tu changes d'entreprise, mets à jour le tableau 'experience'. Ajoute le nouveau poste en position 0 du tableau. Ensuite relance: node generate-cvs.js",
+    "addProject": "Pour ajouter un projet (ex: capstone LogicMojo), ajoute un objet dans 'projects'",
+    "addCertification": "Pour ajouter une certification, ajoute une ligne dans 'certifications'",
+    "regenerate": "cd /home/claude && node generate-cvs.js"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "headline": "DATA ANALYST | ML/AI ENGINEER IN TRAINING",
+  "contact": {
+    "email": "ermanwilliantag@tensoratech.com",
+    "phone": "+971 55 515 4764",
+    "linkedin_url": "linkedin.com/in/erman-tag",
+    "github_url": "github.com/aiengineernlp-dotcom",
+    "location": "Abu Dhabi, UAE",
+    "additional_notes": [
+      "Emirates ID valid until 15/09/2026",
+      "Nationality: Cameroonian",
+      "Bilingual: French/English"
+    ]
+  },
+  "summary": "Data Analyst with nearly 4 years of experience building automated data pipelines, interactive dashboards, and business intelligence solutions, currently advancing into ML/AI Engineering. Demonstrated ability to design end-to-end data workflows — from raw data ingestion (PostgreSQL, MySQL) through cleaning, multi-table integration, feature engineering, and automated EDA report generation (HTML/Plotly). Built and deployed a supervised churn-prediction model on a 112,650-row e-commerce dataset using Scikit-learn. Skilled in translating complex datasets into clear, actionable KPI visualizations and ML-ready features for technical and non-technical stakeholders. Currently completing intensive AI/ML/DS training (LogicMojo, 60 sessions through Sep 2026) covering Deep Learning, NLP, Transformers, LLMs, and RAG architectures, alongside the IBM AI Engineering Professional Certificate.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "company_location": "The KnowHow Research And Consulting — Abu Dhabi, UAE",
+      "date_range": "Sep 2024 – Present",
+      "bullets": [
+        "Designed and automated end-to-end data pipelines using Python (Pandas, SQLAlchemy) — from PostgreSQL ingestion to multi-table integration and automated EDA report generation",
+        "Built and evaluated a supervised ML churn-prediction model (Logistic Regression, Scikit-learn) on customer transaction data, translating results into stakeholder-facing dashboards (Pandas, Matplotlib, Seaborn, Plotly)",
+        "Built interactive HTML/Plotly dashboards and KPI reports covering 11 organizational domains, reducing manual reporting time by 4+ hours per week",
+        "Conducted structured Exploratory Data Analysis (EDA) — missing value detection, distribution analysis, correlation heatmaps, and outlier identification — packaged into shareable HTML reports",
+        "Applied feature engineering techniques (temporal feature extraction, date deltas, categorical encoding, business aggregations) to enrich datasets for analytical and ML use",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure",
+        "Applied statistical analysis (hypothesis testing, correlation, distribution analysis) to validate data quality before model training",
+        "Collaborated cross-functionally to translate business requirements into scalable reporting solutions"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "company_location": "Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE",
+      "date_range": "Jun 2022 – Sep 2024",
+      "bullets": [
+        "Delivered custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users",
+        "Performed end-to-end data analysis, modeling, and reporting to support project delivery and resource allocation decisions",
+        "Built and optimized ETL pipelines integrating MySQL/PostgreSQL and third-party APIs, feeding the data infrastructure later reused for ML pipeline work",
+        "Conducted data quality assurance and pipeline optimization, maintaining integrity across all reporting outputs",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data tracking solutions"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Engineering (4 years)",
+      "institution": "Université de Dschang, Cameroon",
+      "date": "Graduated 2019"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Machine Learning / AI Engineer — CodeCademy",
+      "status": "Completed"
+    },
+    {
+      "name": "IBM AI Engineering Professional Certificate",
+      "status": "In progress, expected Q3 2026"
+    },
+    {
+      "name": "Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions) — covers supervised/unsupervised ML, deep learning, NLP, transformers, RAG, LLMs",
+      "status": "In progress"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Machine Learning",
+      "items": [
+        "Scikit-learn",
+        "Logistic Regression",
+        "Random Forest",
+        "SVM",
+        "KNN",
+        "Naive Bayes",
+        "clustering",
+        "ROC-AUC",
+        "F1-Score",
+        "GridSearch",
+        "SMOTE",
+        "SHAP Values"
+      ]
+    },
+    {
+      "category": "Deep Learning & NLP (in training)",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "backpropagation",
+        "Transformers (BERT, GPT)",
+        "HuggingFace",
+        "tokenization",
+        "embeddings"
+      ]
+    },
+    {
+      "category": "LLMs & RAG (in training)",
+      "items": [
+        "GPT architecture",
+        "context windows",
+        "prompt engineering",
+        "FAISS",
+        "ChromaDB",
+        "semantic search",
+        "LangChain",
+        "CrewAI",
+        "LangGraph"
+      ]
+    },
+    {
+      "category": "Data Analysis & Pipeline",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "CSV/JSON processing",
+        "REST APIs"
+      ]
+    },
+    {
+      "category": "EDA & Visualization",
+      "items": [
+        "Plotly",
+        "Matplotlib",
+        "Seaborn",
+        "HTML report generation",
+        "KPI dashboards",
+        "heatmaps",
+        "distribution analysis"
+      ]
+    },
+    {
+      "category": "Feature Engineering",
+      "items": [
+        "Temporal feature extraction",
+        "date deltas",
+        "one-hot encoding",
+        "target encoding",
+        "groupby aggregations",
+        "business KPI computation",
+        "customer LTV"
+      ]
+    },
+    {
+      "category": "Statistics",
+      "items": [
+        "Hypothesis testing (Z-test, T-test, Chi-square)",
+        "correlation (Pearson, Spearman)",
+        "distributions",
+        "outlier detection"
+      ]
+    },
+    {
+      "category": "Web & Backend",
+      "items": [
+        "Django",
+        "Flask",
+        "RESTful APIs",
+        "Git & GitHub",
+        "Streamlit",
+        "Microsoft 365 Admin"
+      ]
+    },
+    {
+      "category": "Tools",
+      "items": [
+        "Jupyter Notebook",
+        "Google Colab"
+      ]
+    }
+  ],
+  "key_projects": [
+    {
+      "title": "DataSphere360 — E-commerce Customer Intelligence & Churn Prediction System",
+      "subtitle": "Personal Framework Project",
+      "year": "2026",
+      "bullets": [
+        "Built a fully automated, reusable data pipeline framework in Python covering: PostgreSQL data ingestion → automated cleaning (missing values, duplicates, datetime conversion) → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)",
+        "Built and evaluated a customer churn prediction model (Logistic Regression, Scikit-learn) on the 112,650-row, 9-table e-commerce dataset, following a full ML workflow: ingestion → cleaning → feature engineering → training → evaluation",
+        "Engineered 86 features automatically: temporal extraction (year/month/weekday/weekend), 15 date-delta calculations, one-hot encoding — plus 5 business features manually (total order value, delivery time, items per order, customer frequency, customer LTV)",
+        "Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering customer segmentation, revenue trends, product analysis, seller performance, and satisfaction patterns",
+        "Segmented customers (new vs. repeat, high vs. low value) to interpret model outputs and generate stakeholder-facing insights",
+        "Designed framework architecture with stub pattern — pipeline runs end-to-end at any stage of completion, enabling iterative improvement without rework"
+      ]
+    },
+    {
+      "title": "CO2 Emission Tracker",
+      "subtitle": "Regression-based Prediction & Visualization",
+      "year": "2026",
+      "bullets": [
+        "Built regression-based prediction and visualization system (Python, Seaborn) applied to environmental datasets"
+      ]
+    }
+  ],
+  "merge_notes": [
+    "Unified 'Data & Reporting Analyst' role from both documents — extraction_1 focused on data pipeline and dashboard work, extraction_2 emphasized ML churn-prediction model built in the same role; these are complementary aspects of the same position, not contradictions.",
+    "Unified 'IT Applications Manager / Data & Backend Developer' role — extraction_1 emphasized reporting and data quality, extraction_2 mentioned ETL pipeline work reused for ML; again, complementary details of the same role.",
+    "Unified headline to reflect both current title (Data Analyst) and training trajectory (ML/AI Engineer in training) as both documents represent the same person at different emphasis angles.",
+    "Unified key_project 'DataSphere360' — extraction_1 described the data pipeline and feature engineering framework, extraction_2 described the churn-prediction ML model built on top of that framework; these are two facets of the same project, now merged into a single richer entry.",
+    "CO2 Emission Tracker mentioned only in extraction_2; added as a separate second project entry.",
+    "Skills categories consolidated and deduplicated — 'Machine Learning' and 'Deep Learning & NLP' from extraction_2 added alongside 'Data Analysis & Pipeline' and 'EDA & Visualization' from extraction_1; no conflicts, purely additive union.",
+    "Certifications identical across both documents; no merge needed.",
+    "Education identical across both documents; no merge needed.",
+    "Contact info identical across both documents; added 'Bilingual: French/English' from extraction_2 summary into additional_notes.",
+    "Summary unified to reflect full scope: data analyst experience + ML training + hands-on churn model + intensive training program details."
+  ],
+  "conflicts": []
+}

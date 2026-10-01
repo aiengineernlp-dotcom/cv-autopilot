@@ -1,0 +1,108 @@
+{
+  "keywords": [
+    "Data Engineer",
+    "Data Engineering",
+    "Python",
+    "Pandas",
+    "SQLAlchemy",
+    "PostgreSQL",
+    "MySQL",
+    "data pipeline",
+    "ETL",
+    "data ingestion",
+    "feature engineering",
+    "data quality",
+    "API integration",
+    "Django",
+    "Flask",
+    "SQL"
+  ],
+  "excluded_unsupported": [
+    {
+      "term": "Snowflake",
+      "reason": "Data warehouse experience not present in profile"
+    },
+    {
+      "term": "Redshift",
+      "reason": "Data warehouse experience not present in profile"
+    },
+    {
+      "term": "BigQuery",
+      "reason": "Data warehouse experience not present in profile"
+    },
+    {
+      "term": "AWS",
+      "reason": "Cloud platform experience not mentioned in profile"
+    },
+    {
+      "term": "Azure",
+      "reason": "Cloud platform experience not mentioned in profile"
+    },
+    {
+      "term": "GCP",
+      "reason": "Cloud platform experience not mentioned in profile"
+    },
+    {
+      "term": "Airflow",
+      "reason": "Orchestration tools not covered in profile"
+    },
+    {
+      "term": "Spark",
+      "reason": "Big data technologies not present in profile"
+    },
+    {
+      "term": "Kafka",
+      "reason": "Streaming technologies not present in profile"
+    },
+    {
+      "term": "Docker",
+      "reason": "Containerization not covered in profile"
+    },
+    {
+      "term": "Kubernetes",
+      "reason": "Container orchestration not covered in profile"
+    }
+  ],
+  "excluded_too_granular": [
+    {
+      "term": "NumPy",
+      "reason": "Too granular — Python library, low signal for job matching (bundled under Python/Pandas)"
+    },
+    {
+      "term": "one-hot encoding",
+      "reason": "Too granular — specific technique within feature engineering, creates noise"
+    },
+    {
+      "term": "temporal feature extraction",
+      "reason": "Too granular — specific technique within feature engineering, low matching signal"
+    },
+    {
+      "term": "date deltas",
+      "reason": "Too granular — specific calculation type, unlikely to appear in job descriptions"
+    },
+    {
+      "term": "Pearson",
+      "reason": "Too granular — statistical method name, very low signal for job matching"
+    },
+    {
+      "term": "Spearman",
+      "reason": "Too granular — statistical method name, very low signal for job matching"
+    },
+    {
+      "term": "CSV",
+      "reason": "Too granular and ubiquitous — file format, appears in non-relevant contexts"
+    },
+    {
+      "term": "JSON",
+      "reason": "Too granular and ubiquitous — data format, appears in non-relevant contexts"
+    },
+    {
+      "term": "Git",
+      "reason": "Too ubiquitous — version control assumed baseline, low discriminatory power"
+    },
+    {
+      "term": "GitHub",
+      "reason": "Too ubiquitous — platform name, low discriminatory power for matching"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+ERMAN WILLIAN TAGAINTCHUEM
+DATA ANALYST
+ermanwilliantag@tensoratech.com  |  +971 55 515 4764  |  linkedin.com/in/erman-tag  |  github.com/aiengineernlp-dotcom
+Abu Dhabi, UAE  |  Emirates ID valid until 15/09/2026  |  Nationality: Cameroonian
+PROFESSIONAL SUMMARY
+Data Analyst with nearly 4 years of experience building automated data pipelines, interactive dashboards, and business intelligence solutions. Demonstrated ability to design end-to-end data workflows — from raw data ingestion (PostgreSQL) through cleaning, multi-table integration, feature engineering, and automated EDA report generation (HTML/Plotly). Skilled in translating complex datasets into clear, actionable KPI visualizations for technical and non-technical stakeholders. Currently advancing expertise in Machine Learning and AI through intensive training.
+WORK EXPERIENCE
+Data & Reporting Analyst   |   The KnowHow Research And Consulting — Abu Dhabi, UAE   |   Sep 2024 – Present
+• Designed and automated end-to-end data pipelines using Python (Pandas, SQLAlchemy) — from PostgreSQL ingestion to multi-table integration and automated EDA report generation
+• Built interactive HTML/Plotly dashboards and KPI reports covering 11 organizational domains, reducing manual reporting time by 4+ hours per week
+• Conducted structured Exploratory Data Analysis (EDA) — missing value detection, distribution analysis, correlation heatmaps, and outlier identification — packaged into shareable HTML reports
+• Applied feature engineering techniques (temporal feature extraction, date deltas, categorical encoding, business aggregations) to enrich datasets for analytical use
+• Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure
+• Collaborated cross-functionally to translate business requirements into scalable reporting solutions
+IT Applications Manager / Data & Backend Developer   |   Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE   |   Jun 2022 – Sep 2024
+• Delivered custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users
+• Performed end-to-end data analysis, modeling, and reporting to support project delivery and resource allocation decisions
+• Conducted data quality assurance and pipeline optimization, maintaining integrity across all reporting outputs
+• Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data tracking solutions
+KEY PROJECT
+DataSphere360 — E-commerce Customer Intelligence System   |   Personal Framework Project   |   2026
+• Built a fully automated, reusable data pipeline framework in Python covering: PostgreSQL data ingestion → automated cleaning (missing values, duplicates, datetime conversion) → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)
+• Engineered 81 features automatically: temporal extraction (year/month/weekday/weekend), 15 date-delta calculations, one-hot encoding — plus 5 business features manually (total order value, delivery time, items per order, customer frequency, customer LTV)
+• Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering customer segmentation, revenue trends, product analysis, seller performance, and satisfaction patterns
+• Designed framework architecture with stub pattern — pipeline runs end-to-end at any stage of completion, enabling iterative improvement without rework
+EDUCATION
+Bachelor's Degree in Computer Engineering (4 years)   |   Université de Dschang, Cameroon   |   Graduated 2019
+TECHNICAL SKILLS
+Data Analysis & Pipeline: Python, Pandas, NumPy, SQLAlchemy, PostgreSQL, MySQL, CSV/JSON processing
+EDA & Visualization: Plotly, Matplotlib, Seaborn, HTML report generation, KPI dashboards, heatmaps, distribution analysis
+Feature Engineering: Temporal feature extraction, date deltas, one-hot encoding, groupby aggregations, business KPI computation
+Statistics: Hypothesis testing (Z-test, T-test, Chi-square), correlation (Pearson, Spearman), distributions, outlier detection
+Machine Learning (in training): Scikit-learn, supervised learning (Random Forest, SVM, KNN, Naive Bayes), ROC-AUC, F1-Score, GridSearch
+Web & Backend: Django, Flask, RESTful APIs, Git & GitHub, Streamlit, Microsoft 365 Admin
+CERTIFICATIONS & TRAINING
+• Machine Learning / AI Engineer — CodeCademy (Completed)
+• IBM AI Engineering Professional Certificate — In progress, expected Q3 2026
+• Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions)

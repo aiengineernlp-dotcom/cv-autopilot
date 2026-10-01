@@ -1,0 +1,10 @@
+.env
+cl.env
+__pycache__/
+*.pyc
+.venv/
+queue/
+client_secret*.json
+gmail_token_*.json
+backend/storage/
+backend/scripts/personas/persona_report.json

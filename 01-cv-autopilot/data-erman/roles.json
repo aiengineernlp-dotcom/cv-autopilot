@@ -1,0 +1,270 @@
+{
+  "roles": [
+    {
+      "id": "seo-geo",
+      "name": "SEO / GEO Specialist",
+      "keywords": [
+        "seo",
+        "geo",
+        "generative engine optimization",
+        "technical seo",
+        "semantic seo",
+        "search engine optimization",
+        "content strategy",
+        "schema markup"
+      ],
+      "cv_path": "Bloc 00 --SEO/CV_Erman_Tagaintchuem_SEO_Specialist.docx",
+      "cover_letter_number": 1,
+      "status": "cv_disponible",
+      "notes": ""
+    },
+    {
+      "id": "seo-data-analyst",
+      "name": "SEO Data Analyst",
+      "keywords": [
+        "seo analytics",
+        "seo data",
+        "search analytics",
+        "seo reporting",
+        "organic traffic analysis"
+      ],
+      "cv_path": "Bloc 00 --SEO/CV_SEO_Data_Analyst_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 1,
+      "status": "cv_disponible",
+      "notes": "Pas de lettre dédiée — réutilise le template SEO/GEO (#1), à ajuster si besoin."
+    },
+    {
+      "id": "wordpress-web",
+      "name": "WordPress / Web Manager",
+      "keywords": [
+        "wordpress",
+        "elementor",
+        "web manager",
+        "cms admin",
+        "site migration",
+        "cpanel"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_WordPress_Web_Manager_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 2,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "m365-sharepoint",
+      "name": "Microsoft 365 / SharePoint Admin",
+      "keywords": [
+        "microsoft 365",
+        "sharepoint",
+        "m365 admin",
+        "teams admin",
+        "office 365"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_M365_SharePoint_Admin_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 3,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "healthtech-consultant",
+      "name": "HealthTech Consultant",
+      "keywords": [
+        "healthtech",
+        "health tech",
+        "medical platform",
+        "patient journey",
+        "healthcare consultant"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_HealthTech_Consultant_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 4,
+      "status": "cv_disponible",
+      "notes": "CV généré — poste salarié (Data & Reporting Analyst), pas fondateur."
+    },
+    {
+      "id": "african-market",
+      "name": "African Market Specialist",
+      "keywords": [
+        "african market",
+        "francophone africa",
+        "market entry africa",
+        "west africa",
+        "central africa"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_African_Market_Specialist_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 5,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "ai-trainer-labeler",
+      "name": "AI Trainer / Data Labeler",
+      "keywords": [
+        "ai trainer",
+        "data labeler",
+        "rlhf",
+        "model evaluation",
+        "prompt rating",
+        "data annotation"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_AI_Trainer_Data_Labeler_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 6,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "technical-writer",
+      "name": "Technical Writer",
+      "keywords": [
+        "technical writer",
+        "documentation",
+        "api docs",
+        "developer documentation"
+      ],
+      "cv_path": "Bloc 2 — Mathematics for ML/CV_Technical_Writer_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 7,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "ai-automation-workflow",
+      "name": "AI Automation / Workflow Engineer",
+      "keywords": [
+        "automation engineer",
+        "workflow automation",
+        "langchain",
+        "crewai",
+        "langgraph",
+        "ai agent",
+        "rpa"
+      ],
+      "cv_path": "Bloc 2 — Mathematics for ML/CV_AI_Automation_Workflow_Engineer_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 8,
+      "status": "cv_disponible",
+      "notes": "CV généré — LangChain/CrewAI/LangGraph marqués \"in training\", pas encore de projet d'agent publié."
+    },
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst",
+      "keywords": [
+        "data analyst",
+        "dashboard",
+        "kpi reporting",
+        "business intelligence",
+        "tableau",
+        "power bi",
+        "sql analyst"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_Data_Analyst_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 9,
+      "status": "cv_disponible",
+      "notes": ""
+    },
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer",
+      "keywords": [
+        "data engineer",
+        "etl",
+        "data pipeline",
+        "data warehouse",
+        "airflow",
+        "spark"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_Data_Engineer_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 9,
+      "status": "cv_disponible",
+      "notes": "Hors des 14 rôles d'origine — réutilise le template Data Analyst (#9), à ajuster."
+    },
+    {
+      "id": "data-scientist",
+      "name": "Data Scientist",
+      "keywords": [
+        "data scientist",
+        "predictive modeling",
+        "statistical modeling",
+        "machine learning model",
+        "scikit-learn"
+      ],
+      "cv_path": "Bloc 1 — Python & Data Science Fundamentals/CV_Data_Scientist_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 9,
+      "status": "cv_disponible",
+      "notes": "Hors des 14 rôles d'origine — réutilise le template Data Analyst (#9), à ajuster."
+    },
+    {
+      "id": "solutions-consultant",
+      "name": "Solutions Consultant / Pre-sales",
+      "keywords": [
+        "solutions consultant",
+        "pre-sales",
+        "presales",
+        "solutions engineer",
+        "technical sales"
+      ],
+      "cv_path": "Bloc 2 — Mathematics for ML/CV_Solutions_Consultant_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 10,
+      "status": "cv_disponible",
+      "notes": "CV généré."
+    },
+    {
+      "id": "edtech-specialist",
+      "name": "EdTech Specialist",
+      "keywords": [
+        "edtech",
+        "e-learning",
+        "online course",
+        "instructional design"
+      ],
+      "cv_path": "Bloc 2 — Mathematics for ML/CV_EdTech_Specialist_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 11,
+      "status": "cv_disponible",
+      "notes": "CV généré — aucune formation/cours publié à ce jour, à valider avant de postuler sur ce rôle."
+    },
+    {
+      "id": "product-manager",
+      "name": "Product Manager / Technical PM",
+      "keywords": [
+        "product manager",
+        "technical pm",
+        "product owner",
+        "roadmap",
+        "product strategy"
+      ],
+      "cv_path": "Bloc 3 — Machine Learning Supervisé/CV_Product_Manager_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 12,
+      "status": "cv_disponible",
+      "notes": "CV généré — poste salarié (Data & Reporting Analyst) qui a influencé des décisions produit via la data, pas fondateur."
+    },
+    {
+      "id": "ml-ai-engineer",
+      "name": "ML / AI Engineer",
+      "keywords": [
+        "machine learning engineer",
+        "ai engineer",
+        "ml engineer",
+        "deep learning",
+        "pytorch",
+        "tensorflow",
+        "nlp engineer",
+        "llm engineer"
+      ],
+      "cv_path": "Bloc 4 — ML Avancé & Deep Learning/CV_ML_AI_Engineer_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 13,
+      "status": "cv_disponible",
+      "notes": "CV généré — reste à publier les capstones ML avant de postuler à des rôles mid/senior."
+    },
+    {
+      "id": "startup-cofounder",
+      "name": "Startup Co-founder / Founding Engineer",
+      "keywords": [
+        "co-founder",
+        "cofounder",
+        "founding engineer",
+        "technical partner",
+        "startup"
+      ],
+      "cv_path": "Bloc 3 — Machine Learning Supervisé/CV_Startup_Cofounder_Erman_Tagaintchuem.docx",
+      "cover_letter_number": 14,
+      "status": "cv_disponible",
+      "notes": "CV généré — poste salarié (Data & Reporting Analyst) qui a construit/opéré une partie significative de TheKnowHow.ae, pas fondateur."
+    }
+  ]
+}

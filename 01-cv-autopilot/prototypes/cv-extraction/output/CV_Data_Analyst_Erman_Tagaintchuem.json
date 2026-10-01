@@ -1,0 +1,145 @@
+{
+  "headline": "DATA ANALYST",
+  "contact": {
+    "email": "ermanwilliantag@tensoratech.com",
+    "phone": "+971 55 515 4764",
+    "linkedin_url": "linkedin.com/in/erman-tag",
+    "github_url": "github.com/aiengineernlp-dotcom",
+    "location": "Abu Dhabi, UAE",
+    "additional_notes": [
+      "Emirates ID valid until 15/09/2026",
+      "Nationality: Cameroonian"
+    ]
+  },
+  "summary": "Data Analyst with nearly 4 years of experience building automated data pipelines, interactive dashboards, and business intelligence solutions. Demonstrated ability to design end-to-end data workflows — from raw data ingestion (PostgreSQL) through cleaning, multi-table integration, feature engineering, and automated EDA report generation (HTML/Plotly). Skilled in translating complex datasets into clear, actionable KPI visualizations for technical and non-technical stakeholders. Currently advancing expertise in Machine Learning and AI through intensive training.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "company_location": "The KnowHow Research And Consulting — Abu Dhabi, UAE",
+      "date_range": "Sep 2024 – Present",
+      "bullets": [
+        "Designed and automated end-to-end data pipelines using Python (Pandas, SQLAlchemy) — from PostgreSQL ingestion to multi-table integration and automated EDA report generation",
+        "Built interactive HTML/Plotly dashboards and KPI reports covering 11 organizational domains, reducing manual reporting time by 4+ hours per week",
+        "Conducted structured Exploratory Data Analysis (EDA) — missing value detection, distribution analysis, correlation heatmaps, and outlier identification — packaged into shareable HTML reports",
+        "Applied feature engineering techniques (temporal feature extraction, date deltas, categorical encoding, business aggregations) to enrich datasets for analytical use",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure",
+        "Collaborated cross-functionally to translate business requirements into scalable reporting solutions"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "company_location": "Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE",
+      "date_range": "Jun 2022 – Sep 2024",
+      "bullets": [
+        "Delivered custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users",
+        "Performed end-to-end data analysis, modeling, and reporting to support project delivery and resource allocation decisions",
+        "Conducted data quality assurance and pipeline optimization, maintaining integrity across all reporting outputs",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data tracking solutions"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor's Degree in Computer Engineering (4 years)",
+      "institution": "Université de Dschang, Cameroon",
+      "date": "Graduated 2019"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Machine Learning / AI Engineer — CodeCademy",
+      "status": "Completed"
+    },
+    {
+      "name": "IBM AI Engineering Professional Certificate",
+      "status": "In progress, expected Q3 2026"
+    },
+    {
+      "name": "Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions)",
+      "status": "In progress"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Data Analysis & Pipeline",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "CSV/JSON processing"
+      ]
+    },
+    {
+      "category": "EDA & Visualization",
+      "items": [
+        "Plotly",
+        "Matplotlib",
+        "Seaborn",
+        "HTML report generation",
+        "KPI dashboards",
+        "heatmaps",
+        "distribution analysis"
+      ]
+    },
+    {
+      "category": "Feature Engineering",
+      "items": [
+        "Temporal feature extraction",
+        "date deltas",
+        "one-hot encoding",
+        "groupby aggregations",
+        "business KPI computation"
+      ]
+    },
+    {
+      "category": "Statistics",
+      "items": [
+        "Hypothesis testing (Z-test, T-test, Chi-square)",
+        "correlation (Pearson, Spearman)",
+        "distributions",
+        "outlier detection"
+      ]
+    },
+    {
+      "category": "Machine Learning (in training)",
+      "items": [
+        "Scikit-learn",
+        "supervised learning (Random Forest, SVM, KNN, Naive Bayes)",
+        "ROC-AUC",
+        "F1-Score",
+        "GridSearch"
+      ]
+    },
+    {
+      "category": "Web & Backend",
+      "items": [
+        "Django",
+        "Flask",
+        "RESTful APIs",
+        "Git & GitHub",
+        "Streamlit",
+        "Microsoft 365 Admin"
+      ]
+    }
+  ],
+  "key_project": {
+    "title": "DataSphere360 — E-commerce Customer Intelligence System",
+    "subtitle": "Personal Framework Project",
+    "year": "2026",
+    "bullets": [
+      "Built a fully automated, reusable data pipeline framework in Python covering: PostgreSQL data ingestion → automated cleaning (missing values, duplicates, datetime conversion) → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)",
+      "Engineered 81 features automatically: temporal extraction (year/month/weekday/weekend), 15 date-delta calculations, one-hot encoding — plus 5 business features manually (total order value, delivery time, items per order, customer frequency, customer LTV)",
+      "Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering customer segmentation, revenue trends, product analysis, seller performance, and satisfaction patterns",
+      "Designed framework architecture with stub pattern — pipeline runs end-to-end at any stage of completion, enabling iterative improvement without rework"
+    ]
+  },
+  "extraction_notes": [
+    "SENSITIVE DATA PRESENT: Nationality (Cameroonian), Emirates ID expiration date (15/09/2026). These must be confirmed by user before inclusion in any generated CV or public document.",
+    "Key project year listed as '2026' — appears to be future-dated; extracted as written but may require clarification.",
+    "Training dates for LogicMojo also reference 'March–September 2026' (future dates); extracted verbatim but may need user verification.",
+    "IBM certification expected completion 'Q3 2026' is also future-dated; extracted as stated."
+  ]
+}

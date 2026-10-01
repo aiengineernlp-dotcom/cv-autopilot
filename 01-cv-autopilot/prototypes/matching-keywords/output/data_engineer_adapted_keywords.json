@@ -1,0 +1,164 @@
+{
+  "keywords": [
+    "data engineer",
+    "data engineering",
+    "data pipeline",
+    "automated pipeline",
+    "etl",
+    "elt",
+    "data infrastructure",
+    "data ingestion",
+    "data integration",
+    "multi-table integration",
+    "feature engineering",
+    "data quality",
+    "data modeling",
+    "data processing",
+    "pipeline automation",
+    "sqlalchemy",
+    "pandas",
+    "backend developer"
+  ],
+  "excluded_unsupported": [
+    {
+      "term": "snowflake",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "redshift",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "bigquery",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "aws",
+      "reason": "Explicitly noted as NOT mentioned in profile (coverage_notes)"
+    },
+    {
+      "term": "azure",
+      "reason": "Explicitly noted as NOT mentioned in profile (coverage_notes)"
+    },
+    {
+      "term": "gcp",
+      "reason": "Explicitly noted as NOT mentioned in profile (coverage_notes)"
+    },
+    {
+      "term": "airflow",
+      "reason": "Explicitly noted as NOT covered in profile (coverage_notes)"
+    },
+    {
+      "term": "prefect",
+      "reason": "Explicitly noted as NOT covered in profile (coverage_notes)"
+    },
+    {
+      "term": "luigi",
+      "reason": "Explicitly noted as NOT covered in profile (coverage_notes)"
+    },
+    {
+      "term": "spark",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "hadoop",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "kafka",
+      "reason": "Explicitly noted as NOT present in profile (coverage_notes)"
+    },
+    {
+      "term": "terraform",
+      "reason": "Explicitly noted as NOT mentioned in profile (coverage_notes)"
+    },
+    {
+      "term": "docker",
+      "reason": "Explicitly noted as NOT covered in profile (coverage_notes)"
+    },
+    {
+      "term": "kubernetes",
+      "reason": "Explicitly noted as NOT covered in profile (coverage_notes)"
+    }
+  ],
+  "excluded_too_granular": [
+    {
+      "term": "temporal feature extraction",
+      "reason": "Specific feature engineering technique — too granular for job title matching"
+    },
+    {
+      "term": "date deltas",
+      "reason": "Specific feature engineering technique — too granular for job title matching"
+    },
+    {
+      "term": "one-hot encoding",
+      "reason": "Common ML preprocessing step — too granular and creates false positives"
+    },
+    {
+      "term": "pearson correlation",
+      "reason": "Statistical method name — too granular for job matching"
+    },
+    {
+      "term": "spearman correlation",
+      "reason": "Statistical method name — too granular for job matching"
+    },
+    {
+      "term": "missing value detection",
+      "reason": "Specific data quality technique — covered by broader 'data quality' keyword"
+    },
+    {
+      "term": "outlier detection",
+      "reason": "Specific data quality technique — covered by broader 'data quality' keyword"
+    }
+  ],
+  "excluded_too_generic": [
+    {
+      "term": "python",
+      "reason": "General-purpose language used across all data/tech roles — too generic per guidelines"
+    },
+    {
+      "term": "mysql",
+      "reason": "General-purpose database — too generic per guidelines"
+    },
+    {
+      "term": "postgresql",
+      "reason": "General-purpose database — too generic per guidelines"
+    },
+    {
+      "term": "numpy",
+      "reason": "General-purpose Python library — too generic per guidelines"
+    },
+    {
+      "term": "csv",
+      "reason": "Universal data format — too generic"
+    },
+    {
+      "term": "json",
+      "reason": "Universal data format — too generic"
+    },
+    {
+      "term": "django",
+      "reason": "General-purpose web framework — too generic per guidelines"
+    },
+    {
+      "term": "flask",
+      "reason": "General-purpose web framework — too generic per guidelines"
+    },
+    {
+      "term": "rest api",
+      "reason": "Universal API pattern — too generic"
+    },
+    {
+      "term": "restful",
+      "reason": "Universal API pattern — too generic"
+    },
+    {
+      "term": "git",
+      "reason": "Universal version control tool — too generic per guidelines"
+    },
+    {
+      "term": "github",
+      "reason": "Universal version control platform — too generic per guidelines"
+    }
+  ]
+}

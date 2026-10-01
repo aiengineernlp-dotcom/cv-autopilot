@@ -1,0 +1,100 @@
+{
+  "title": "Data Scientist",
+  "summary": "Data professional with nearly 4 years of experience building automated data pipelines, performing exploratory data analysis, and engineering features for analytical use. Demonstrated ability to design end-to-end workflows from PostgreSQL ingestion through cleaning, multi-table integration, feature engineering (temporal extraction, encoding, aggregations), and statistical analysis (correlation, distributions, outlier detection). Currently advancing Machine Learning expertise through intensive training in supervised learning algorithms (Random Forest, SVM, KNN, Naive Bayes), model evaluation (ROC-AUC, F1-Score, GridSearch), and Scikit-learn.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "tailored_bullets": [
+        "Designed and automated end-to-end data pipelines using Python (Pandas, SQLAlchemy) from PostgreSQL ingestion through multi-table integration and automated EDA report generation",
+        "Conducted structured Exploratory Data Analysis covering missing value detection, distribution analysis, correlation heatmaps (Pearson, Spearman), and outlier identification — packaged into shareable HTML reports",
+        "Applied feature engineering techniques including temporal feature extraction, date deltas, categorical encoding (one-hot), and business aggregations to enrich datasets for analytical use",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure",
+        "Built interactive HTML/Plotly dashboards and KPI reports covering 11 organizational domains"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "tailored_bullets": [
+        "Performed end-to-end data analysis, modeling, and reporting to support project delivery and resource allocation decisions",
+        "Conducted data quality assurance and pipeline optimization, maintaining integrity across all reporting outputs",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data tracking solutions"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Machine Learning & Statistics",
+      "items": [
+        "Scikit-learn",
+        "Supervised learning (Random Forest, SVM, KNN, Naive Bayes)",
+        "Model evaluation (ROC-AUC, F1-Score, GridSearch)",
+        "Hypothesis testing (Z-test, T-test, Chi-square)",
+        "Correlation analysis (Pearson, Spearman)",
+        "Distribution analysis",
+        "Outlier detection"
+      ]
+    },
+    {
+      "category": "Data Pipeline & Engineering",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "CSV/JSON processing",
+        "Multi-table integration",
+        "Automated data cleaning"
+      ]
+    },
+    {
+      "category": "Feature Engineering",
+      "items": [
+        "Temporal feature extraction",
+        "Date deltas",
+        "One-hot encoding",
+        "Groupby aggregations",
+        "Business KPI computation"
+      ]
+    },
+    {
+      "category": "EDA & Visualization",
+      "items": [
+        "Plotly",
+        "Matplotlib",
+        "Seaborn",
+        "HTML report generation",
+        "Correlation heatmaps",
+        "Distribution plots",
+        "Interactive dashboards"
+      ]
+    },
+    {
+      "category": "Development & Tools",
+      "items": [
+        "Git & GitHub",
+        "RESTful APIs",
+        "Streamlit",
+        "Django",
+        "Flask"
+      ]
+    }
+  ],
+  "key_project": {
+    "title": "DataSphere360 — E-commerce Customer Intelligence System",
+    "bullets": [
+      "Built fully automated data pipeline framework in Python: PostgreSQL ingestion → automated cleaning (missing values, duplicates, datetime conversion) → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)",
+      "Engineered 81 features automatically: temporal extraction (year/month/weekday/weekend), 15 date-delta calculations, one-hot encoding — plus 5 business features (total order value, delivery time, items per order, customer frequency, customer LTV)",
+      "Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering customer segmentation, revenue trends, product analysis, seller performance, and satisfaction patterns using correlation analysis, distribution plots, and statistical techniques",
+      "Designed reusable framework architecture with stub pattern enabling iterative improvement without rework"
+    ]
+  },
+  "coverage_notes": [
+    "Data Scientist roles typically require hands-on production experience deploying machine learning models — base profile shows ML training in progress (Scikit-learn, supervised algorithms) but no deployed model experience yet",
+    "Common Data Scientist requirements not covered: deep learning frameworks (TensorFlow, PyTorch, Keras), natural language processing, computer vision, time series forecasting, A/B testing, causal inference",
+    "Advanced statistical methods often expected: Bayesian inference, experimental design, multivariate analysis, dimensionality reduction (PCA, t-SNE) — base profile covers foundational hypothesis testing and correlation only",
+    "Big data tools commonly required: Spark, Hadoop, cloud platforms (AWS SageMaker, Azure ML, GCP AI Platform) — not present in base profile",
+    "Model deployment and MLOps experience (Docker, Kubernetes, CI/CD for ML, model monitoring) — not covered in base profile"
+  ]
+}

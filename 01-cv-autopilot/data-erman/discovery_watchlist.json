@@ -1,0 +1,24 @@
+{
+  "_note": "19 entreprises vérifiées par API (postes actuels confirmés pertinents). Géographie large : UAE, Afrique (Nord/Ouest/Est/francophone), France, remote global — voir RESULTATS_RECHERCHE_ENTREPRISES.md pour l'historique complet et PROMPT_RECHERCHE_ENTREPRISES.md pour relancer une recherche (zones restantes : Belgique).",
+  "sources": [
+    { "provider": "greenhouse", "board_token": "cobblestoneenergy4", "company_display_name": "Cobblestone Energy" },
+    { "provider": "lever", "board_token": "palantir", "company_display_name": "Palantir" },
+    { "provider": "greenhouse", "board_token": "ai71", "company_display_name": "AI71" },
+    { "provider": "lever", "board_token": "binance", "company_display_name": "Binance" },
+    { "provider": "greenhouse", "board_token": "oneacrefund", "company_display_name": "One Acre Fund" },
+    { "provider": "greenhouse", "board_token": "acumen", "company_display_name": "Acumen" },
+    { "provider": "lever", "board_token": "weloglobal", "company_display_name": "Welo Global" },
+    { "provider": "greenhouse", "board_token": "careem", "company_display_name": "Careem" },
+    { "provider": "greenhouse", "board_token": "alxafrica", "company_display_name": "ALX Africa" },
+    { "provider": "greenhouse", "board_token": "moniepoint", "company_display_name": "Moniepoint" },
+    { "provider": "greenhouse", "board_token": "doctolib", "company_display_name": "Doctolib" },
+    { "provider": "greenhouse", "board_token": "remotecom", "company_display_name": "Remote.com" },
+    { "provider": "greenhouse", "board_token": "algolia", "company_display_name": "Algolia" },
+    { "provider": "greenhouse", "board_token": "dataiku", "company_display_name": "Dataiku" },
+    { "provider": "greenhouse", "board_token": "canonical", "company_display_name": "Canonical" },
+    { "provider": "lever", "board_token": "Yassir", "company_display_name": "Yassir" },
+    { "provider": "lever", "board_token": "payjoy", "company_display_name": "PayJoy" },
+    { "provider": "lever", "board_token": "qonto", "company_display_name": "Qonto" },
+    { "provider": "lever", "board_token": "pigment", "company_display_name": "Pigment" }
+  ]
+}

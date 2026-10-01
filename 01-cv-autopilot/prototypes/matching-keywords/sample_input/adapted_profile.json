@@ -1,0 +1,45 @@
+{
+  "title": "ML / AI Engineer",
+  "summary": "Data professional with nearly 4 years of experience building automated data pipelines, feature engineering workflows, and structured EDA processes, plus hands-on exposure to supervised ML fundamentals (Scikit-learn — Random Forest, SVM, KNN, Naive Bayes). Skilled in preparing ML-ready datasets from multi-source ingestion through statistical validation and feature engineering. Currently advancing Machine Learning expertise through intensive training.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "tailored_bullets": [
+        "Engineered ML-ready datasets through automated pipelines (Python, Pandas, SQLAlchemy) — from PostgreSQL ingestion to feature engineering and structured EDA",
+        "Applied statistical validation (hypothesis testing, correlation analysis, outlier detection) to assess data quality ahead of downstream analytical use",
+        "Applied feature engineering techniques (temporal extraction, date deltas, categorical encoding, business aggregations) to prepare datasets for analytical use",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into a unified pipeline infrastructure, reducing manual reporting time by 4+ hours/week"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "tailored_bullets": [
+        "Performed end-to-end data analysis and modeling to support delivery and resource-allocation decisions across a platform serving 50+ concurrent users",
+        "Built and optimized ETL pipelines integrating MySQL/PostgreSQL and third-party APIs for scalable data tracking",
+        "Conducted data quality assurance and pipeline optimization, maintaining integrity across all outputs"
+      ]
+    }
+  ],
+  "skills": [
+    {"category": "Machine Learning (in training)", "items": ["Scikit-learn", "supervised learning (Random Forest, SVM, KNN, Naive Bayes)", "ROC-AUC", "F1-Score", "GridSearch"]},
+    {"category": "Feature Engineering", "items": ["Temporal feature extraction", "date deltas", "one-hot encoding", "groupby aggregations", "business KPI computation"]},
+    {"category": "Data Pipeline", "items": ["Python", "Pandas", "NumPy", "SQLAlchemy", "PostgreSQL", "MySQL", "REST APIs"]},
+    {"category": "Statistics", "items": ["Hypothesis testing (Z-test, T-test, Chi-square)", "correlation (Pearson, Spearman)", "distributions", "outlier detection"]},
+    {"category": "EDA & Visualization", "items": ["Plotly", "Matplotlib", "Seaborn", "HTML report generation", "KPI dashboards"]},
+    {"category": "Tools", "items": ["Django", "Flask", "RESTful APIs", "Git & GitHub", "Streamlit"]}
+  ],
+  "key_project": {
+    "title": "DataSphere360 — E-commerce Data Pipeline & Feature Engineering Framework",
+    "bullets": [
+      "Built a fully automated, reusable data pipeline framework (Python) covering ingestion (PostgreSQL), automated cleaning, and multi-table integration (9 tables, 112,650 rows, automatic FK/PK detection)",
+      "Engineered 86 features (81 automated — temporal extraction, 15 date-delta calculations, one-hot encoding — plus 5 business features: total order value, delivery time, items per order, customer frequency, customer LTV) to prepare ML-ready data from raw transactional records",
+      "Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering customer segmentation, revenue trends, and product/seller performance",
+      "Designed a stub-pattern framework architecture, enabling the pipeline to run end-to-end at any stage of completion"
+    ]
+  },
+  "coverage_notes": [
+    "Aucune mention, dans le profil de base, de modélisation supervisée appliquée à ce projet (churn prediction, classification, régression) — seule la préparation de données (ingestion, feature engineering, EDA) est confirmée. Ne pas présenter ce projet comme un modèle ML entraîné/déployé sans confirmation explicite de l'utilisateur.",
+    "Aucune compétence Deep Learning / NLP / LLM (PyTorch, TensorFlow, Transformers, HuggingFace, LangChain...) trouvée dans le profil de base fourni. La certification LogicMojo suggère que ce contenu existe dans la formation en cours, mais ce détail n'était pas présent dans le CV source utilisé pour l'extraction (brique 1).",
+    "Le rôle 'ML / AI Engineer' n'est que partiellement couvert par ce profil : fondations solides en pipeline de données, feature engineering et statistiques, mais aucune preuve directe de modélisation ML appliquée en contexte professionnel dans ce document. À combler via le champ libre complémentaire de l'onboarding si l'utilisateur a cette expérience ailleurs."
+  ]
+}

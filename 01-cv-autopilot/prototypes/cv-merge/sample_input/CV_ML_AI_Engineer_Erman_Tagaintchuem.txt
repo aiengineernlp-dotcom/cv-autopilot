@@ -1,0 +1,35 @@
+ERMAN WILLIAN TAGAINTCHUEM
+ML / AI ENGINEER
+ermanwilliantag@tensoratech.com  |  +971 55 515 4764  |  linkedin.com/in/erman-tag  |  github.com/aiengineernlp-dotcom
+Abu Dhabi, UAE  |  Emirates ID valid until 15/09/2026  |  Nationality: Cameroonian
+PROFESSIONAL SUMMARY
+ML/AI Engineer in training with nearly 4 years of data & software engineering experience and hands-on practice in classical Machine Learning (Logistic Regression, Random Forest, SVM, clustering). Built and deployed a churn-prediction model on a 112,650-row e-commerce dataset, and reusable ML-ready data pipelines from raw multi-source data to feature engineering and EDA. Currently completing a 60-session intensive AI/ML/DS training program (LogicMojo, through Sep 2026) covering Deep Learning, NLP, Transformers, LLMs, and RAG architectures, alongside the IBM AI Engineering Professional Certificate. Bilingual (French/English).
+WORK EXPERIENCE
+Data & Reporting Analyst   |   The KnowHow Research And Consulting — Abu Dhabi, UAE   |   Sep 2024 – Present
+• Built and evaluated a supervised ML churn-prediction model (Logistic Regression, Scikit-learn) on customer transaction data, translating results into stakeholder-facing dashboards (Pandas, Matplotlib, Seaborn, Plotly)
+• Engineered ML-ready datasets from multi-source pipelines (PostgreSQL, MySQL, REST APIs) across 11 business domains, including feature engineering and structured EDA
+• Applied statistical analysis (hypothesis testing, correlation, distribution analysis) to validate data quality before model training
+• Automated reporting systems using Python (Django/Flask), reducing manual analysis time by 4+ hours/week
+IT Applications Manager / Data & Backend Developer   |   Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE   |   Jun 2022 – Sep 2024
+• Performed data analysis, modeling, and reporting to support project delivery and resource allocation for 50+ users
+• Built and optimized ETL pipelines integrating MySQL/PostgreSQL and third-party APIs, feeding the data infrastructure later reused for ML pipeline work
+KEY PROJECT
+DataSphere360 — Customer Churn Prediction   |   Personal Framework Project   |   2026
+• Built a customer churn prediction model (Logistic Regression, Scikit-learn) on a 112,650-row, 9-table e-commerce dataset, following a full ML workflow: ingestion → cleaning → feature engineering → training → evaluation
+• Engineered 86 features (temporal extraction, date-delta calculations, one-hot encoding, business KPIs — customer LTV, purchase frequency) to prepare ML-ready data from raw transactional records
+• Segmented customers (new vs. repeat, high vs. low value) to interpret model outputs and generate stakeholder-facing insights
+• Second project — CO2 Emission Tracker: regression-based prediction and visualization (Python, Seaborn) applied to environmental datasets
+EDUCATION
+Bachelor's Degree in Computer Engineering (4 years)   |   Université de Dschang, Cameroon   |   Graduated 2019
+TECHNICAL SKILLS
+Machine Learning: Scikit-learn, Logistic Regression, Random Forest, SVM, KNN, Naive Bayes, clustering, ROC-AUC, F1-Score, GridSearch, SMOTE, SHAP Values
+Deep Learning & NLP (in training): PyTorch, TensorFlow, backpropagation, Transformers (BERT, GPT), HuggingFace, tokenization, embeddings
+LLMs & RAG (in training): GPT architecture, context windows, prompt engineering, FAISS, ChromaDB, semantic search, LangChain, CrewAI, LangGraph
+Feature Engineering: Temporal extraction, date-delta, one-hot/target encoding, groupby aggregations, customer LTV
+Data Pipeline: Python, Pandas, NumPy, SQLAlchemy, PostgreSQL, MySQL, REST APIs
+Statistics: Hypothesis testing (Z-test, T-test, Chi-square), correlation, distribution analysis, outlier detection
+Tools: Git & GitHub, Streamlit, Jupyter Notebook, Google Colab, Django, Flask
+CERTIFICATIONS & TRAINING
+• Machine Learning / AI Engineer — CodeCademy (Completed)
+• IBM AI Engineering Professional Certificate — In progress, expected Q3 2026
+• Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions) — covers supervised/unsupervised ML, deep learning, NLP, transformers, RAG, LLMs

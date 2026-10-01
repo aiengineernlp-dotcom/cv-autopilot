@@ -1,0 +1,92 @@
+{
+  "title": "Data Engineer",
+  "summary": "Data Engineer with nearly 4 years of experience building automated data pipelines and scalable data infrastructure. Demonstrated ability to design end-to-end data workflows — from raw data ingestion (PostgreSQL, MySQL) through multi-table integration, feature engineering, and automated processing. Skilled in consolidating multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure and maintaining data quality across all pipeline outputs. Proficient in Python-based pipeline automation using Pandas, SQLAlchemy, and database integration.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "tailored_bullets": [
+        "Designed and automated end-to-end data pipelines using Python (Pandas, SQLAlchemy) — from PostgreSQL ingestion to multi-table integration and automated processing",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure",
+        "Applied feature engineering techniques (temporal feature extraction, date deltas, categorical encoding, business aggregations) to enrich datasets for analytical use",
+        "Conducted data quality assurance including missing value detection, outlier identification, and distribution analysis",
+        "Collaborated cross-functionally to translate business requirements into scalable data solutions"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "tailored_bullets": [
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data tracking solutions",
+        "Performed end-to-end data processing, modeling, and quality assurance to support project delivery decisions",
+        "Conducted data quality assurance and pipeline optimization, maintaining integrity across all data outputs",
+        "Delivered custom data solutions for platforms serving 50+ concurrent users"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Data Pipeline & Engineering",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "CSV/JSON processing",
+        "multi-table integration",
+        "automated data ingestion"
+      ]
+    },
+    {
+      "category": "Feature Engineering & Data Processing",
+      "items": [
+        "Temporal feature extraction",
+        "date deltas",
+        "one-hot encoding",
+        "groupby aggregations",
+        "business KPI computation",
+        "data cleaning",
+        "duplicate detection"
+      ]
+    },
+    {
+      "category": "Data Quality & Analysis",
+      "items": [
+        "Missing value detection",
+        "outlier detection",
+        "distribution analysis",
+        "correlation analysis (Pearson, Spearman)",
+        "data validation"
+      ]
+    },
+    {
+      "category": "Backend & APIs",
+      "items": [
+        "Django",
+        "Flask",
+        "RESTful APIs",
+        "Git & GitHub",
+        "API integration"
+      ]
+    }
+  ],
+  "key_project": {
+    "title": "DataSphere360 — E-commerce Customer Intelligence System",
+    "bullets": [
+      "Built a fully automated, reusable data pipeline framework in Python covering: PostgreSQL data ingestion → automated cleaning (missing values, duplicates, datetime conversion) → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)",
+      "Engineered 81 features automatically: temporal extraction (year/month/weekday/weekend), 15 date-delta calculations, one-hot encoding — plus 5 business features (total order value, delivery time, items per order, customer frequency, customer LTV)",
+      "Designed framework architecture with stub pattern — pipeline runs end-to-end at any stage of completion, enabling iterative improvement without rework"
+    ]
+  },
+  "coverage_notes": [
+    "Data warehouse experience (e.g., Snowflake, Redshift, BigQuery) not present in profile — typical requirement for Data Engineer roles",
+    "Cloud platform experience (AWS, Azure, GCP) not mentioned — often expected for modern data engineering positions",
+    "ETL/ELT orchestration tools (Airflow, Prefect, Luigi) not covered — common requirement for pipeline scheduling and monitoring",
+    "Data modeling expertise (star schema, dimensional modeling, normalization) not explicitly detailed",
+    "Big data technologies (Spark, Hadoop, Kafka) not present — may be required for large-scale data processing roles",
+    "Infrastructure as Code (Terraform, CloudFormation) not mentioned — increasingly common for data engineering positions",
+    "Containerization (Docker, Kubernetes) not covered — relevant for deploying production data pipelines",
+    "CI/CD pipeline experience for data engineering workflows not explicitly mentioned",
+    "Data governance and compliance frameworks not covered — may be relevant depending on industry"
+  ]
+}

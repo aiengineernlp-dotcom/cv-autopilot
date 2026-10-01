@@ -1,0 +1,10 @@
+{
+  "_note": "Suivi des testeurs bêta ayant accès à l'app (plafond Google : 100 tant que l'app n'est pas vérifiée). Ajouter ici ET dans Google Cloud Console → OAuth consent screen → Test users pour chaque compte Gmail.",
+  "testers": [
+    { "name": "Erman (moi)", "email": "aiengineernlp@gmail.com", "provider": "gmail", "added": "2026-08-14", "status": "actif" },
+    { "name": "Erman (secondaire)", "email": "tensoratech@gmail.com", "provider": "gmail", "added": "2026-08-14", "status": "ajouté, pas encore utilisé" },
+    { "name": "Erman (secondaire)", "email": "ewilliantagain@gmail.com", "provider": "gmail", "added": "2026-08-14", "status": "actif — alertes LinkedIn confirmées le 2026-08-15 (6 emails), zéro alerte Indeed sur ce compte" },
+    { "name": "Erman (pro)", "email": "ermanwilliantag@tensoratech.com", "provider": "imap", "added": "2026-08-14", "status": "actif — hors plafond Google (IMAP)" },
+    { "name": "Erman (Canada)", "email": "ermanwillian.canada@gmail.com", "provider": "gmail", "added": "2026-08-15", "status": "actif — connecté avec succès le 2026-08-15 après ajout comme Test user Google, 5 alertes Indeed confirmées" }
+  ]
+}

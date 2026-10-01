@@ -1,0 +1,207 @@
+{
+  "keywords": [
+    "data scientist",
+    "machine learning scientist",
+    "applied scientist",
+    "ml engineer",
+    "data science engineer",
+    "scikit-learn",
+    "random forest",
+    "feature engineering",
+    "model evaluation",
+    "exploratory data analysis",
+    "eda",
+    "data pipeline",
+    "correlation analysis",
+    "statistical analysis",
+    "outlier detection",
+    "distribution analysis",
+    "hypothesis testing",
+    "automated data cleaning",
+    "multi-table integration",
+    "kpi",
+    "business intelligence"
+  ],
+  "excluded_unsupported": [
+    {
+      "term": "tensorflow",
+      "reason": "Deep learning framework not mentioned in profile; coverage_notes explicitly flags TensorFlow/PyTorch/Keras as missing"
+    },
+    {
+      "term": "pytorch",
+      "reason": "Deep learning framework not mentioned in profile; coverage_notes explicitly flags TensorFlow/PyTorch/Keras as missing"
+    },
+    {
+      "term": "nlp",
+      "reason": "Natural language processing not mentioned in profile; coverage_notes flags NLP as not covered"
+    },
+    {
+      "term": "computer vision",
+      "reason": "Not mentioned in profile; coverage_notes flags computer vision as not covered"
+    },
+    {
+      "term": "time series",
+      "reason": "Time series forecasting not mentioned in profile; coverage_notes flags it as missing"
+    },
+    {
+      "term": "spark",
+      "reason": "Big data tool not mentioned in profile; coverage_notes flags Spark/Hadoop as not present"
+    },
+    {
+      "term": "aws sagemaker",
+      "reason": "Cloud ML platform not mentioned in profile; coverage_notes flags cloud platforms as not present"
+    },
+    {
+      "term": "docker",
+      "reason": "MLOps/deployment tool not mentioned in profile; coverage_notes flags Docker/Kubernetes as not covered"
+    },
+    {
+      "term": "a/b testing",
+      "reason": "Not mentioned in profile; coverage_notes flags A/B testing as not covered"
+    },
+    {
+      "term": "pca",
+      "reason": "Dimensionality reduction technique not mentioned in profile; coverage_notes flags PCA/t-SNE as not covered"
+    }
+  ],
+  "excluded_too_granular": [
+    {
+      "term": "svm",
+      "reason": "Specific algorithm name; 'supervised learning' or 'machine learning' already captures this signal more broadly"
+    },
+    {
+      "term": "knn",
+      "reason": "Specific algorithm name; 'supervised learning' or 'machine learning' already captures this signal more broadly"
+    },
+    {
+      "term": "naive bayes",
+      "reason": "Specific algorithm name; 'supervised learning' or 'machine learning' already captures this signal more broadly"
+    },
+    {
+      "term": "roc-auc",
+      "reason": "Specific metric name; 'model evaluation' already captures this capability without over-precision"
+    },
+    {
+      "term": "f1-score",
+      "reason": "Specific metric name; 'model evaluation' already captures this capability without over-precision"
+    },
+    {
+      "term": "gridsearch",
+      "reason": "Specific hyperparameter tuning technique; too granular compared to broader 'model evaluation'"
+    },
+    {
+      "term": "z-test",
+      "reason": "Specific test name; 'hypothesis testing' already captures this capability"
+    },
+    {
+      "term": "t-test",
+      "reason": "Specific test name; 'hypothesis testing' already captures this capability"
+    },
+    {
+      "term": "chi-square",
+      "reason": "Specific test name; 'hypothesis testing' already captures this capability"
+    },
+    {
+      "term": "pearson",
+      "reason": "Specific correlation method; 'correlation analysis' already captures this capability"
+    },
+    {
+      "term": "spearman",
+      "reason": "Specific correlation method; 'correlation analysis' already captures this capability"
+    },
+    {
+      "term": "one-hot encoding",
+      "reason": "Specific encoding technique; 'feature engineering' already captures this capability"
+    },
+    {
+      "term": "temporal feature extraction",
+      "reason": "Specific feature engineering technique; 'feature engineering' already captures this capability"
+    },
+    {
+      "term": "datasphere360",
+      "reason": "Project name; too specific and unlikely to match job descriptions meaningfully"
+    }
+  ],
+  "excluded_too_generic": [
+    {
+      "term": "python",
+      "reason": "General-purpose programming language used across all technical roles; creates noise"
+    },
+    {
+      "term": "pandas",
+      "reason": "Standard Python data library; too common across data roles to provide signal"
+    },
+    {
+      "term": "numpy",
+      "reason": "Standard Python numerical library; too common across data roles to provide signal"
+    },
+    {
+      "term": "postgresql",
+      "reason": "General-purpose relational database; used across many technical roles"
+    },
+    {
+      "term": "mysql",
+      "reason": "General-purpose relational database; used across many technical roles"
+    },
+    {
+      "term": "sql",
+      "reason": "Universal database query language; too generic to distinguish this role"
+    },
+    {
+      "term": "git",
+      "reason": "Universal version control tool; used across all software roles"
+    },
+    {
+      "term": "github",
+      "reason": "Universal code hosting platform; used across all software roles"
+    },
+    {
+      "term": "csv",
+      "reason": "Universal file format; too generic to provide meaningful signal"
+    },
+    {
+      "term": "json",
+      "reason": "Universal data format; too generic to provide meaningful signal"
+    },
+    {
+      "term": "api",
+      "reason": "General integration pattern; too common across technical roles"
+    },
+    {
+      "term": "restful",
+      "reason": "General API architecture; too common across backend/data roles"
+    },
+    {
+      "term": "plotly",
+      "reason": "General visualization library; common across many data/analytics roles"
+    },
+    {
+      "term": "matplotlib",
+      "reason": "Standard Python plotting library; too common across data roles"
+    },
+    {
+      "term": "seaborn",
+      "reason": "Standard Python statistical visualization library; too common across data roles"
+    },
+    {
+      "term": "streamlit",
+      "reason": "General prototyping framework; not specific to data science roles"
+    },
+    {
+      "term": "django",
+      "reason": "General web framework; not specific to data science roles"
+    },
+    {
+      "term": "flask",
+      "reason": "General web framework; not specific to data science roles"
+    },
+    {
+      "term": "html",
+      "reason": "Universal markup language; too generic across all technical roles"
+    },
+    {
+      "term": "sqlalchemy",
+      "reason": "General Python ORM library; too common across data/backend roles"
+    }
+  ]
+}

@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CV Tailor — Erman Tagaintchuem</title>
+<style>
+  :root {
+    --bg: #F7F6F3;
+    --surface: #FFFFFF;
+    --surface2: #F0EEE9;
+    --border: #E2DFD8;
+    --border-strong: #C8C4BB;
+    --text: #1A1916;
+    --text-2: #5C5A55;
+    --text-3: #9B9890;
+    --accent: #1A56A5;
+    --accent-bg: #EBF2FC;
+    --accent-border: #B5D0F0;
+    --success: #1A6B3C;
+    --success-bg: #E8F5EE;
+    --warning: #7A4F00;
+    --warning-bg: #FFF4DC;
+    --danger: #8B1E1E;
+    --danger-bg: #FCEAEA;
+    --radius: 8px;
+    --radius-lg: 12px;
+    --shadow: 0 1px 3px rgba(0,0,0,.07), 0 4px 12px rgba(0,0,0,.05);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.6;
+    font-size: 15px;
+  }
+
+  /* ── HEADER ── */
+  header {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 56px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent);
+    letter-spacing: .03em;
+    text-transform: uppercase;
+  }
+  .logo span { color: var(--text-3); font-weight: 400; }
+  header .spacer { flex: 1; }
+  .api-badge {
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: var(--success-bg);
+    color: var(--success);
+    border: 1px solid #A8DCBB;
+    display: none;
+  }
+  .api-badge.active { display: inline-block; }
+
+  /* ── LAYOUT ── */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+
+  /* ── CARDS ── */
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+  }
+  .card-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-3);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: .4rem;
+  }
+  .card-title {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: 1rem;
+  }
+
+  /* ── API KEY SETUP ── */
+  .api-setup {
+    background: var(--accent-bg);
+    border: 1px solid var(--accent-border);
+    border-radius: var(--radius-lg);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+  .api-setup .icon {
+    font-size: 22px;
+    margin-top: 2px;
+  }
+  .api-setup-text { flex: 1; min-width: 220px; }
+  .api-setup-text h3 { font-size: 14px; font-weight: 600; color: var(--accent); margin-bottom: .3rem; }
+  .api-setup-text p { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+  .api-setup-text a { color: var(--accent); }
+  .api-key-row { display: flex; gap: .5rem; margin-top: .75rem; align-items: center; }
+  .api-key-row input {
+    flex: 1;
+    border: 1px solid var(--accent-border);
+    border-radius: var(--radius);
+    padding: .5rem .75rem;
+    font-size: 13px;
+    background: var(--surface);
+    color: var(--text);
+    font-family: monospace;
+    letter-spacing: .03em;
+  }
+  .api-key-row input:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+  /* ── FORM ELEMENTS ── */
+  textarea, select {
+    width: 100%;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: .75rem 1rem;
+    font-size: 14px;
+    font-family: inherit;
+    background: var(--surface);
+    color: var(--text);
+    transition: border-color .15s;
+  }
+  textarea { resize: vertical; line-height: 1.7; }
+  textarea:focus, select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(26,86,165,.08); }
+  .hint { font-size: 12px; color: var(--text-3); margin-top: .4rem; line-height: 1.5; }
+
+  .radio-row { display: flex; gap: 1.5rem; margin-top: .25rem; }
+  .radio-row label { font-size: 14px; display: flex; align-items: center; gap: .4rem; cursor: pointer; color: var(--text-2); }
+  .radio-row input[type=radio]:checked + span { color: var(--accent); font-weight: 500; }
+
+  /* ── BUTTONS ── */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: .4rem;
+    padding: .55rem 1.1rem;
+    border-radius: var(--radius);
+    border: 1px solid var(--border-strong);
+    background: var(--surface);
+    color: var(--text);
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all .15s;
+    font-weight: 500;
+  }
+  .btn:hover { background: var(--surface2); }
+  .btn-primary {
+    background: var(--accent);
+    color: #fff;
+    border-color: var(--accent);
+    padding: .65rem 1.5rem;
+    font-size: 14px;
+  }
+  .btn-primary:hover { background: #1447A0; border-color: #1447A0; }
+  .btn-primary:disabled { opacity: .5; cursor: not-allowed; }
+
+  /* ── TAGS ── */
+  .tags { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .5rem; }
+  .tag {
+    font-size: 11px;
+    padding: 2px 9px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    color: var(--text-2);
+    background: var(--surface2);
+  }
+  .tag-match { background: var(--success-bg); color: var(--success); border-color: #A8DCBB; }
+  .tag-miss { background: var(--warning-bg); color: var(--warning); border-color: #F0C96A; }
+
+  /* ── OUTPUT ── */
+  #result { display: none; }
+
+  .score-bar-wrap { margin: .75rem 0; }
+  .score-label { font-size: 13px; color: var(--text-2); margin-bottom: .3rem; display: flex; justify-content: space-between; }
+  .score-bar { height: 8px; border-radius: 4px; background: var(--surface2); overflow: hidden; }
+  .score-fill { height: 100%; border-radius: 4px; background: var(--accent); transition: width .6s ease; }
+
+  .output-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    font-size: 13.5px;
+    line-height: 1.85;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+    max-height: 520px;
+    overflow-y: auto;
+  }
+
+  .section-head {
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--text-3);
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin: 1.25rem 0 .5rem;
+    padding-bottom: .3rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── SPINNER ── */
+  .spinner-wrap { display: none; align-items: center; gap: .75rem; padding: 1.5rem; justify-content: center; }
+  .spinner-wrap.active { display: flex; }
+  .spinner {
+    width: 22px; height: 22px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin .7s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .streaming-box {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.25rem;
+    font-size: 13.5px;
+    line-height: 1.85;
+    color: var(--text);
+    white-space: pre-wrap;
+    word-break: break-word;
+    min-height: 120px;
+    max-height: 600px;
+    overflow-y: auto;
+  }
+
+  /* ── ANALYSIS GRID ── */
+  .analysis-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem; }
+  @media(max-width:580px){ .analysis-grid { grid-template-columns: 1fr; } }
+
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1rem;
+  }
+  .stat-card .num { font-size: 26px; font-weight: 700; color: var(--accent); }
+  .stat-card .lbl { font-size: 12px; color: var(--text-3); margin-top: .15rem; }
+
+  /* ── DIVIDER ── */
+  hr { border: none; border-top: 1px solid var(--border); margin: 1rem 0; }
+
+  /* ── COPY FEEDBACK ── */
+  .copy-ok { color: var(--success) !important; }
+
+  /* ── FOOTER ── */
+  footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--text-3);
+    padding: 2rem;
+    border-top: 1px solid var(--border);
+    margin-top: 2rem;
+  }
+
+  /* ── ALERT ── */
+  .alert {
+    padding: .75rem 1rem;
+    border-radius: var(--radius);
+    font-size: 13px;
+    margin-bottom: 1rem;
+    display: none;
+  }
+  .alert.error { background: var(--danger-bg); color: var(--danger); border: 1px solid #EDACAC; display: block; }
+  .alert.info { background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-border); display: block; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">CV Tailor <span>/ Erman Tagaintchuem</span></div>
+  <div class="spacer"></div>
+  <div class="api-badge" id="apiBadge">● API connectée</div>
+</header>
+
+<div class="container">
+
+  <!-- API SETUP -->
+  <div class="api-setup">
+    <div class="icon">🔑</div>
+    <div class="api-setup-text">
+      <h3>Clé API Anthropic requise</h3>
+      <p>La clé reste dans ton navigateur (localStorage) — elle n'est jamais envoyée ailleurs que vers api.anthropic.com.<br>
+      Obtenir une clé : <a href="https://console.anthropic.com" target="_blank">console.anthropic.com</a> → API Keys → Create Key</p>
+      <div class="api-key-row">
+        <input type="password" id="apiKey" placeholder="sk-ant-..." autocomplete="off">
+        <button class="btn" onclick="saveKey()">Sauvegarder</button>
+        <button class="btn" onclick="clearKey()" style="color:var(--danger)">Effacer</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert" id="alertBox"></div>
+
+  <!-- STEP 1 — JOB DESCRIPTION -->
+  <div class="card">
+    <div class="card-label">Étape 1</div>
+    <div class="card-title">Colle la job description complète</div>
+    <textarea id="jd" rows="9" placeholder="Colle ici le texte complet de l'offre — titre, missions, compétences requises, qualifications, avantages..."></textarea>
+    <p class="hint">Plus c'est complet, plus le CV tailoré sera précis. Copie tout, y compris les "nice to have".</p>
+  </div>
+
+  <!-- STEP 2 — BASE CV -->
+  <div class="card">
+    <div class="card-label">Étape 2</div>
+    <div class="card-title">CV de base le plus proche</div>
+    <select id="cvbase">
+      <option value="">— Sélectionne le rôle le plus proche de l'offre —</option>
+      <option value="seo">01 — SEO / GEO Specialist</option>
+      <option value="wordpress">02 — WordPress / Web Manager</option>
+      <option value="m365">03 — Microsoft 365 / SharePoint Admin</option>
+      <option value="healthtech">04 — HealthTech Consultant</option>
+      <option value="africa">05 — African Market Specialist</option>
+      <option value="aitrainer">06 — AI Trainer / Data Labeler</option>
+      <option value="techwriter">07 — Technical Writer / Documentation</option>
+      <option value="automation">08 — AI Automation / Workflow Engineer</option>
+      <option value="data">09 — Data Analyst</option>
+      <option value="solutions">10 — Solutions Consultant / Pre-sales</option>
+      <option value="edtech">11 — EdTech Specialist</option>
+      <option value="pm">12 — Product Manager / Technical PM</option>
+      <option value="mlai">13 — ML / AI Engineer</option>
+      <option value="founder">14 — Startup Co-founder / Founding Engineer</option>
+    </select>
+    <p class="hint">Si tu hésites entre deux rôles, choisis celui dont le titre correspond le mieux à l'offre.</p>
+  </div>
+
+  <!-- STEP 3 — COUNTRY -->
+  <div class="card">
+    <div class="card-label">Étape 3</div>
+    <div class="card-title">Pays de l'offre</div>
+    <div class="radio-row">
+      <label><input type="radio" name="pays" value="UAE" checked> <span>UAE / International / Remote</span></label>
+      <label><input type="radio" name="pays" value="Canada"> <span>Canada</span></label>
+    </div>
+  </div>
+
+  <!-- GENERATE BUTTON -->
+  <div style="margin-bottom:1.5rem">
+    <button class="btn btn-primary" id="genBtn" onclick="generate()">
+      ✦ Générer le CV tailoré
+    </button>
+    <span style="font-size:12px;color:var(--text-3);margin-left:.75rem">~30–60 secondes · Claude Sonnet</span>
+  </div>
+
+  <!-- SPINNER -->
+  <div class="spinner-wrap" id="spinner">
+    <div class="spinner"></div>
+    <span style="font-size:13px;color:var(--text-2)">Claude analyse l'offre et adapte ton CV...</span>
+  </div>
+
+  <!-- RESULT -->
+  <div id="result">
+
+    <!-- ANALYSIS -->
+    <div class="card">
+      <div class="card-label">Analyse de correspondance</div>
+      <div class="analysis-grid" id="statsGrid"></div>
+      <div class="section-head">Mots-clés que tu maîtrises ✓</div>
+      <div class="tags" id="matchTags"></div>
+      <div class="section-head" style="margin-top:1rem">Mots-clés à vérifier / mettre en avant</div>
+      <div class="tags" id="missTags"></div>
+    </div>
+
+    <!-- AI OUTPUT -->
+    <div class="card">
+      <div class="card-label">CV tailoré par Claude</div>
+      <div class="streaming-box" id="streamBox">En attente...</div>
+      <div style="margin-top:.75rem;display:flex;gap:.5rem;flex-wrap:wrap">
+        <button class="btn" id="copyBtn" onclick="copyOutput()">⎘ Copier le texte</button>
+        <button class="btn" onclick="saveMarkdown()">↓ Télécharger .md</button>
+        <button class="btn" onclick="reset()" style="margin-left:auto;color:var(--text-3)">↺ Nouvelle analyse</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  CV Tailor · Erman Tagaintchuem · Abu Dhabi UAE<br>
+  Clé API stockée localement dans ton navigateur — jamais transmise à un tiers.
+</footer>
+
+<script>
+// ── PROFILE DATA ──────────────────────────────────────────────
+const PROFILE = {
+  name: "Erman Willian Tagaintchuem",
+  email: "ermanwilliantag@tensoratech.com",
+  phone: "+971 55 515 4764",
+  linkedin: "linkedin.com/in/erman-tag",
+  github: "github.com/aiengineernlp-dotcom",
+  locationUAE: "Abu Dhabi, UAE | Emirates ID valid until 15/09/2026",
+  locationCanada: "Abu Dhabi, UAE | Open to relocation across Canada",
+  canadaAuth: "Express Entry: E004992217 | CRS: 410 | Francophone Mobility LMIA-exempt C16 | WES ECA #7247699IMM",
+  exp: [
+    {
+      title: "Data & Reporting Analyst (Web & IT)",
+      company: "The KnowHow Research And Consulting",
+      location: "Abu Dhabi, UAE",
+      dates: "Sep 2024 – Present",
+      bullets: [
+        "Engineered automated reporting systems using Python (Django/Flask) processing data across 11 domains, reducing manual reporting time by 4+ hours per week",
+        "Built interactive KPI dashboards using Pandas, Matplotlib, Seaborn, and Plotly translating complex datasets into actionable insights for senior stakeholders",
+        "Integrated data pipelines from MySQL, PostgreSQL, and REST APIs into a unified analytics infrastructure covering 11 organizational domains",
+        "Deployed performance monitoring dashboards tracking SEO, traffic, and content KPIs in near real-time across the full domain portfolio",
+        "Developed automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking",
+        "Administered Microsoft 365 tenant (user provisioning, licensing, security policies) for a team of 10+",
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements and deliver data-driven strategic presentations",
+        "Managed SEO and GEO (Generative Engine Optimization) strategy across 11 domains including TheKnowHow.ae healthcare platform",
+        "Designed content architecture and internal linking systems aligned with semantic SEO and topical authority principles",
+        "Built and managed TheKnowHow.ae WordPress platform from architecture through deployment — healthcare platform covering medical tourism, second opinions, and precision medicine",
+        "Designed AI-assisted content workflows using ChatGPT and Claude for medical content generation and review"
+      ]
+    },
+    {
+      title: "IT Applications Manager / Data & Backend Developer",
+      company: "Alnajm Alwardi Project Management",
+      location: "Dubai / Abu Dhabi, UAE",
+      dates: "Jun 2022 – Sep 2024",
+      bullets: [
+        "Developed custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users",
+        "Performed end-to-end data analysis, modeling, and reporting to support project delivery decisions and resource allocation",
+        "Built user-friendly interfaces displaying key performance indicators, improving data accessibility for non-technical managers",
+        "Conducted data quality assurance, optimization, and pipeline maintenance ensuring data integrity across all reporting outputs",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) to deliver scalable data solutions for project tracking"
+      ]
+    }
+  ],
+  projects: [
+    "DataSphere360 — Customer E-commerce Intelligence System: End-to-end analytics platform using Python (Pandas, Scikit-learn, Matplotlib) for customer segmentation and churn prediction with logistic regression",
+    "CO2 Emission Tracker — Data Visualization & Prediction: Visualization and ML prediction model for CO2 emission tracking using Python, Seaborn, and Scikit-learn"
+  ],
+  skills: {
+    data: "Python, Pandas, NumPy, SciPy, Matplotlib, Seaborn, Plotly, EDA, Scikit-learn, Statistical Analysis, Hypothesis Testing, MySQL, PostgreSQL, REST APIs, Streamlit",
+    ai: "Prompt Engineering, LLM workflows, ChatGPT, Claude, LangChain (in training), RAG Architecture (in training), CrewAI (in training), AI Agents (in training), NLP, TF-IDF",
+    web: "WordPress (Advanced), Elementor, Technical SEO, GEO, Semantic SEO, Medical SEO, Schema Markup, Core Web Vitals, DNS/SSL/Hosting, cPanel",
+    m365: "Microsoft 365 Administration, SharePoint, Teams, Exchange Online, Power Automate, User Provisioning, Licensing, Security Policies",
+    dev: "Python Django, Flask, PHP, JavaScript, HTML5, CSS3, RESTful APIs, Git & GitHub, Jupyter Notebook, Google Colab",
+    business: "Product Strategy, SaaS Design, Market Research, Process Optimization, Technical Documentation, Stakeholder Communication, Bilingual FR/EN"
+  },
+  certs: [
+    "Machine Learning / AI Engineer — CodeCademy (Completed)",
+    "IBM AI Engineering Professional Certificate — In progress, expected Q3 2026",
+    "Batch AI / ML / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions)"
+  ],
+  languages: "French C1/C2 (native) | English Fluent"
+};
+
+const ROLE_SKILLS = {
+  seo: "Technical SEO, Semantic SEO, GEO, Medical SEO, WordPress, Elementor, Google Search Console, Ahrefs, Schema Markup, Core Web Vitals, Content Architecture, Internal Linking, AI content workflows",
+  wordpress: "WordPress, Elementor, cPanel, DNS, SSL, Core Web Vitals, Performance Optimization, WooCommerce, PHP, Hosting Management, Yoast SEO, Technical SEO",
+  m365: "Microsoft 365 Administration, SharePoint, Teams, Exchange Online, Power Automate, User Provisioning, Licensing, Security Policies, Tenant Configuration, IT Administration",
+  healthtech: "HealthTech Platform, Patient Journey, Medical SEO, Healthcare Content, AI Medical Workflows, Digital Health, Medical Tourism, Patient Acquisition",
+  africa: "Business Development, Francophone African Markets, UAE Africa Trade, French C1/C2, Cross-cultural Communication, Market Entry Strategy, Bilingual",
+  aitrainer: "Prompt Engineering, LLM Evaluation, RLHF, AI Output Quality, Hallucination Detection, Bilingual French English, Healthcare Medical Content, AI Feedback",
+  techwriter: "Technical Documentation, Process Documentation, API Documentation, Knowledge Base, Markdown, Git README, French English Writing, Microsoft 365",
+  automation: "Prompt Engineering, LangChain, CrewAI, AI Agents, Process Automation, Python, Power Automate, Workflow Design, LLM integration",
+  data: "Python, Pandas, NumPy, Matplotlib, Seaborn, Plotly, EDA, Statistics, Hypothesis Testing, Scikit-learn, Machine Learning, MySQL, PostgreSQL, Streamlit, Power BI",
+  solutions: "Pre-sales, Solution Design, Technical Demonstrations, Requirements Gathering, Stakeholder Presentations, SaaS, CRM, Client Facing, Proposal Writing",
+  edtech: "Instructional Design, E-learning, LMS, Curriculum Design, AI Content, French English Course Delivery, WordPress LMS, LearnDash",
+  pm: "Product Roadmap, User Stories, Feature Prioritization, Go-to-Market, Agile, Technical Specifications, Stakeholder Management, MVP, SaaS Product",
+  mlai: "Machine Learning, Scikit-learn, Deep Learning, PyTorch, TensorFlow, NLP, Transformers, BERT, GPT, HuggingFace, RAG, LangChain, CrewAI, LangGraph, AI Agents, Vector Database, FAISS",
+  founder: "0-to-1 Product Building, MVP, Startup Operations, Go-to-Market, Equity, Co-founder, Technical Partnership, HealthTech, SaaS"
+};
+
+// ── KEYWORD ANALYSIS ──────────────────────────────────────────
+const KEYWORDS = ["python","pandas","numpy","scikit","tensorflow","pytorch","django","flask","sql","mysql","postgresql","api","rest","git","docker","kubernetes","aws","azure","gcp","power bi","tableau","excel","sharepoint","microsoft 365","m365","wordpress","php","javascript","html","css","langchain","llm","rag","nlp","bert","gpt","huggingface","streamlit","mlflow","fastapi","react","node","spark","airflow","dbt","snowflake","looker","crm","erp","salesforce","hubspot","jira","seo","technical seo","semantic seo","geo","prompt engineering","ai agents","machine learning","deep learning","transformers","vector database","faiss","chromadb","power automate","sharepoint","teams","exchange","user provisioning","tenant","licensing","elementor","woocommerce","cpanel","dns","ssl","schema markup","core web vitals","malt","upwork","scrum","agile","kanban","product roadmap","user stories","okr","kpi","bi","business intelligence","data visualization","eda","hypothesis testing","classification","regression","clustering","random forest","svm","knn","naive bayes","logistic regression","xgboost","lightgbm","shap","roc","f1","smote","cross validation"];
+
+function analyze(jd, role) {
+  const low = jd.toLowerCase();
+  const mySkills = (ROLE_SKILLS[role] || Object.values(PROFILE.skills).join(' ')).toLowerCase();
+  const matched = [], missing = [];
+  KEYWORDS.forEach(k => {
+    if (low.includes(k)) {
+      if (mySkills.includes(k) || Object.values(PROFILE.skills).join(' ').toLowerCase().includes(k)) matched.push(k);
+      else missing.push(k);
+    }
+  });
+  const score = Math.min(95, Math.round(40 + (matched.length / Math.max(1, matched.length + missing.length)) * 55));
+  return { matched, missing, score };
+}
+
+// ── API KEY ───────────────────────────────────────────────────
+function saveKey() {
+  const k = document.getElementById('apiKey').value.trim();
+  if (!k.startsWith('sk-ant-')) { showAlert('La clé doit commencer par sk-ant-', 'error'); return; }
+  localStorage.setItem('ant_key', k);
+  document.getElementById('apiBadge').classList.add('active');
+  showAlert('Clé sauvegardée ✓', 'info');
+  setTimeout(() => document.getElementById('alertBox').style.display = 'none', 2500);
+}
+function clearKey() {
+  localStorage.removeItem('ant_key');
+  document.getElementById('apiKey').value = '';
+  document.getElementById('apiBadge').classList.remove('active');
+}
+function getKey() { return localStorage.getItem('ant_key') || ''; }
+
+window.onload = () => {
+  const k = getKey();
+  if (k) {
+    document.getElementById('apiKey').value = k;
+    document.getElementById('apiBadge').classList.add('active');
+  }
+};
+
+// ── ALERT ────────────────────────────────────────────────────
+function showAlert(msg, type) {
+  const el = document.getElementById('alertBox');
+  el.textContent = msg;
+  el.className = 'alert ' + type;
+}
+
+// ── BUILD PROMPT ─────────────────────────────────────────────
+function buildPrompt(jd, role, pays) {
+  const canadaLine = pays === 'Canada' ? `\nCanadian work authorization: ${PROFILE.canadaAuth}` : '';
+  const canadaTip = pays === 'Canada' ? '\n\nIMPORTANT for Canada: Add this line at the end of the cover letter paragraph: "I am eligible to work in Canada without employer LMIA under the Francophone Mobility Program (Code C16)."' : '';
+  const location = pays === 'Canada' ? PROFILE.locationCanada : PROFILE.locationUAE;
+
+  return `You are an expert ATS-optimized CV writer specializing in tailoring CVs to specific job descriptions. Your task: adapt Erman's CV precisely to the job description below WITHOUT inventing any experience or skill he doesn't have.
+
+=== JOB DESCRIPTION ===
+${jd}
+=== END JOB DESCRIPTION ===
+
+=== ERMAN'S COMPLETE PROFILE ===
+Name: ${PROFILE.name}
+Contact: ${PROFILE.email} | ${PROFILE.phone} | ${PROFILE.linkedin} | ${PROFILE.github}
+Location: ${location}${canadaLine}
+Languages: ${PROFILE.languages}
+
+EXPERIENCE:
+${PROFILE.exp.map(e => `**${e.title}** @ ${e.company}, ${e.location} (${e.dates})\n${e.bullets.map(b => '• ' + b).join('\n')}`).join('\n\n')}
+
+KEY PROJECTS:
+${PROFILE.projects.map(p => '• ' + p).join('\n')}
+
+SKILLS:
+Data & Analytics: ${PROFILE.skills.data}
+AI & LLMs: ${PROFILE.skills.ai}
+Web & SEO: ${PROFILE.skills.web}
+Microsoft 365: ${PROFILE.skills.m365}
+Development: ${PROFILE.skills.dev}
+Business: ${PROFILE.skills.business}
+
+CERTIFICATIONS:
+${PROFILE.certs.map(c => '• ' + c).join('\n')}
+=== END PROFILE ===
+
+YOUR DELIVERABLES — output in this exact order:
+
+## 1. ATS SCORE & GAP ANALYSIS
+- ATS match score: X/100
+- Top 3 matching strengths
+- Top 3 gaps (be honest — what's truly missing vs what's easily bridged)
+
+## 2. TAILORED PROFESSIONAL SUMMARY
+Write a 3-sentence summary that mirrors the job description's exact language and keywords. Start with a strong opener specific to this role.
+
+## 3. TAILORED EXPERIENCE BULLETS
+Rewrite and reorder the most relevant bullets from his experience to match this job. Use the job's exact keywords. Select 5-7 bullets from Job 1 and 3-4 from Job 2. Do NOT invent anything — only reframe what's real.
+
+## 4. SKILLS SECTION (for this role)
+List 5-6 skill categories with items, prioritized for this specific job. Use the job's terminology where possible.
+
+## 5. TAILORED COVER LETTER PARAGRAPH
+Write ONE strong opening paragraph (4 sentences max) for this specific role and company. Make it feel written for THIS job, not a template.${canadaTip}
+
+## 6. QUICK WINS
+2-3 concrete things Erman can do in the next 7 days to strengthen this specific application (certifications, portfolio pieces, LinkedIn keywords, etc.)
+
+Rules:
+- Mirror the job description language exactly for ATS
+- Every claim must be based on his real experience
+- Keep bullets under 2 lines
+- Be direct — no filler phrases`;
+}
+
+// ── GENERATE ─────────────────────────────────────────────────
+async function generate() {
+  const jd = document.getElementById('jd').value.trim();
+  const role = document.getElementById('cvbase').value;
+  const pays = document.querySelector('input[name="pays"]:checked').value;
+  const key = getKey();
+
+  if (!jd) { showAlert('Colle une job description dans l\'étape 1.', 'error'); return; }
+  if (!role) { showAlert('Sélectionne un rôle de base dans l\'étape 2.', 'error'); return; }
+  if (!key) { showAlert('Entre et sauvegarde ta clé API Anthropic en haut de la page.', 'error'); return; }
+
+  // Analyze
+  const { matched, missing, score } = analyze(jd, role);
+
+  // Show UI
+  document.getElementById('genBtn').disabled = true;
+  document.getElementById('spinner').classList.add('active');
+  document.getElementById('result').style.display = 'block';
+  document.getElementById('alertBox').style.display = 'none';
+
+  // Stats
+  const scoreColor = score >= 70 ? '#1A6B3C' : score >= 50 ? '#7A4F00' : '#8B1E1E';
+  document.getElementById('statsGrid').innerHTML = `
+    <div class="stat-card">
+      <div class="num" style="color:${scoreColor}">${score}/100</div>
+      <div class="lbl">Score ATS estimé</div>
+      <div class="score-bar-wrap">
+        <div class="score-bar"><div class="score-fill" style="width:${score}%;background:${scoreColor}"></div></div>
+      </div>
+    </div>
+    <div class="stat-card">
+      <div class="num">${matched.length}</div>
+      <div class="lbl">Mots-clés correspondants</div>
+      <div style="margin-top:.4rem;font-size:12px;color:var(--text-3)">${missing.length} à renforcer</div>
+    </div>`;
+
+  document.getElementById('matchTags').innerHTML = matched.length
+    ? matched.map(k => `<span class="tag tag-match">${k}</span>`).join('')
+    : '<span class="tag">Analyse manuelle recommandée</span>';
+
+  document.getElementById('missTags').innerHTML = missing.length
+    ? missing.map(k => `<span class="tag tag-miss">${k}</span>`).join('')
+    : '<span class="tag" style="color:var(--success);background:var(--success-bg)">Aucun gap critique détecté ✓</span>';
+
+  // Stream from API
+  const streamBox = document.getElementById('streamBox');
+  streamBox.textContent = '';
+
+  try {
+    const response = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': key,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-6',
+        max_tokens: 2000,
+        stream: true,
+        messages: [{ role: 'user', content: buildPrompt(jd, role, pays) }]
+      })
+    });
+
+    if (!response.ok) {
+      const err = await response.json();
+      throw new Error(err.error?.message || `Erreur API: ${response.status}`);
+    }
+
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+      for (const line of lines) {
+        if (line.startsWith('data: ')) {
+          const data = line.slice(6).trim();
+          if (data === '[DONE]') continue;
+          try {
+            const json = JSON.parse(data);
+            if (json.type === 'content_block_delta' && json.delta?.text) {
+              streamBox.textContent += json.delta.text;
+              streamBox.scrollTop = streamBox.scrollHeight;
+            }
+          } catch {}
+        }
+      }
+    }
+
+  } catch (err) {
+    streamBox.textContent = `Erreur : ${err.message}\n\nVérifie ta clé API et réessaie.`;
+    showAlert('Erreur API — ' + err.message, 'error');
+  }
+
+  document.getElementById('spinner').classList.remove('active');
+  document.getElementById('genBtn').disabled = false;
+}
+
+// ── COPY / DOWNLOAD ──────────────────────────────────────────
+function copyOutput() {
+  const text = document.getElementById('streamBox').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copyBtn');
+    btn.textContent = '✓ Copié !';
+    btn.classList.add('copy-ok');
+    setTimeout(() => { btn.textContent = '⎘ Copier le texte'; btn.classList.remove('copy-ok'); }, 2000);
+  });
+}
+
+function saveMarkdown() {
+  const content = document.getElementById('streamBox').textContent;
+  const jd = document.getElementById('jd').value.slice(0, 60).replace(/[^a-zA-Z0-9]/g, '-');
+  const date = new Date().toISOString().slice(0, 10);
+  const blob = new Blob([content], { type: 'text/markdown' });
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob);
+  a.download = `CV-Tailor-${date}-${jd}.md`;
+  a.click();
+}
+
+function reset() {
+  document.getElementById('result').style.display = 'none';
+  document.getElementById('jd').value = '';
+  document.getElementById('cvbase').value = '';
+  document.getElementById('streamBox').textContent = '';
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>

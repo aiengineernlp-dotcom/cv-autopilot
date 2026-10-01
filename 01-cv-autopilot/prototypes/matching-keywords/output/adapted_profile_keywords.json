@@ -1,0 +1,22 @@
+{
+  "keywords": [
+    "machine learning engineer",
+    "ai engineer",
+    "ml engineer",
+    "machine learning",
+    "scikit-learn"
+  ],
+  "excluded_unsupported": [
+    {"term": "deep learning", "reason": "Aucune mention dans le profil adapté fourni — la catégorie de compétences présente s'arrête au Machine Learning classique (Scikit-learn, Random Forest, SVM, KNN, Naive Bayes)."},
+    {"term": "pytorch", "reason": "Absent du profil adapté fourni."},
+    {"term": "tensorflow", "reason": "Absent du profil adapté fourni."},
+    {"term": "nlp engineer", "reason": "Aucune compétence NLP présente dans le profil adapté fourni."},
+    {"term": "llm engineer", "reason": "Aucune compétence LLM présente dans le profil adapté fourni."}
+  ],
+  "excluded_too_granular": [
+    {"term": "random forest", "reason": "Nom d'algorithme précis — peu susceptible d'apparaître tel quel dans le titre ou le corps d'une offre pertinente ; 'machine learning' capture déjà le signal utile."},
+    {"term": "gridsearch", "reason": "Terme d'outillage technique, pas un terme qu'une offre d'emploi utiliserait pour se décrire — risque de bruit sans gain de rappel."},
+    {"term": "roc-auc", "reason": "Métrique technique, jamais utilisée dans un titre ou une description d'offre pour se qualifier."},
+    {"term": "svm", "reason": "Trop court et trop technique pour apparaître dans une offre — risque de correspondance fortuite dans un contexte non pertinent."}
+  ]
+}

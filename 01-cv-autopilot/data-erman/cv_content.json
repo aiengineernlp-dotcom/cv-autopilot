@@ -1,0 +1,596 @@
+{
+  "contact_line_1": "ermanwilliantag@tensoratech.com  |  +971 55 515 4764  |  linkedin.com/in/erman-tag  |  github.com/aiengineernlp-dotcom",
+  "contact_line_2": "Abu Dhabi, UAE  |  Emirates ID valid until 15/09/2026  |  Nationality: Cameroonian",
+  "job_1": [
+    "Data & Reporting Analyst",
+    "The KnowHow Research And Consulting — Abu Dhabi, UAE",
+    "Sep 2024 – Present"
+  ],
+  "job_2": [
+    "IT Applications Manager / Data & Backend Developer",
+    "Alnajm Alwardi Project Management — Dubai / Abu Dhabi, UAE",
+    "Jun 2022 – Sep 2024"
+  ],
+  "education": [
+    "Bachelor's Degree in Computer Engineering (4 years)",
+    "Université de Dschang, Cameroon",
+    "Graduated 2019"
+  ],
+  "certifications": [
+    "Machine Learning / AI Engineer — CodeCademy (Completed)",
+    "IBM AI Engineering Professional Certificate — In progress, expected Q3 2026",
+    "Batch AI / Machine Learning / Data Science — LogicMojo Intensive Training, March–September 2026 (60 sessions) — covers supervised/unsupervised ML, deep learning, NLP, transformers, RAG, LLMs"
+  ],
+  "roles": {
+    "ml-ai-engineer": {
+      "title": "ML / AI ENGINEER",
+      "target_dir": "Bloc 4 — ML Avancé & Deep Learning",
+      "filename": "CV_ML_AI_Engineer_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — reste à publier les capstones ML avant de postuler à des rôles mid/senior.",
+      "summary": "ML/AI Engineer in training with nearly 4 years of data & software engineering experience and hands-on practice in classical Machine Learning (Logistic Regression, Random Forest, SVM, clustering). Built and deployed a churn-prediction model on a 112,650-row e-commerce dataset, and reusable ML-ready data pipelines from raw multi-source data to feature engineering and EDA. Currently completing a 60-session intensive AI/ML/DS training program (LogicMojo, through Sep 2026) covering Deep Learning, NLP, Transformers, LLMs, and RAG architectures, alongside the IBM AI Engineering Professional Certificate. Bilingual (French/English).",
+      "job1_bullets": [
+        "Built and evaluated a supervised ML churn-prediction model (Logistic Regression, Scikit-learn) on customer transaction data, translating results into stakeholder-facing dashboards (Pandas, Matplotlib, Seaborn, Plotly)",
+        "Engineered ML-ready datasets from multi-source pipelines (PostgreSQL, MySQL, REST APIs) across 11 business domains, including feature engineering and structured EDA",
+        "Applied statistical analysis (hypothesis testing, correlation, distribution analysis) to validate data quality before model training",
+        "Automated reporting systems using Python (Django/Flask), reducing manual analysis time by 4+ hours/week"
+      ],
+      "job2_bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery and resource allocation for 50+ users",
+        "Built and optimized ETL pipelines integrating MySQL/PostgreSQL and third-party APIs, feeding the data infrastructure later reused for ML pipeline work"
+      ],
+      "project_title": "DataSphere360 — Customer Churn Prediction",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Built a customer churn prediction model (Logistic Regression, Scikit-learn) on a 112,650-row, 9-table e-commerce dataset, following a full ML workflow: ingestion → cleaning → feature engineering → training → evaluation",
+        "Engineered 86 features (temporal extraction, date-delta calculations, one-hot encoding, business KPIs — customer LTV, purchase frequency) to prepare ML-ready data from raw transactional records",
+        "Segmented customers (new vs. repeat, high vs. low value) to interpret model outputs and generate stakeholder-facing insights",
+        "Second project — CO2 Emission Tracker: regression-based prediction and visualization (Python, Seaborn) applied to environmental datasets"
+      ],
+      "skills": [
+        [
+          "Machine Learning",
+          "Scikit-learn, Logistic Regression, Random Forest, SVM, KNN, Naive Bayes, clustering, ROC-AUC, F1-Score, GridSearch, SMOTE, SHAP Values"
+        ],
+        [
+          "Deep Learning & NLP (in training)",
+          "PyTorch, TensorFlow, backpropagation, Transformers (BERT, GPT), HuggingFace, tokenization, embeddings"
+        ],
+        [
+          "LLMs & RAG (in training)",
+          "GPT architecture, context windows, prompt engineering, FAISS, ChromaDB, semantic search, LangChain, CrewAI, LangGraph"
+        ],
+        [
+          "Feature Engineering",
+          "Temporal extraction, date-delta, one-hot/target encoding, groupby aggregations, customer LTV"
+        ],
+        [
+          "Data Pipeline",
+          "Python, Pandas, NumPy, SQLAlchemy, PostgreSQL, MySQL, REST APIs"
+        ],
+        [
+          "Statistics",
+          "Hypothesis testing (Z-test, T-test, Chi-square), correlation, distribution analysis, outlier detection"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Streamlit, Jupyter Notebook, Google Colab, Django, Flask"
+        ]
+      ]
+    },
+    "wordpress-web": {
+      "title": "WORDPRESS / WEB MANAGER",
+      "target_dir": "Bloc 1 — Python & Data Science Fundamentals",
+      "filename": "CV_WordPress_Web_Manager_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Web Manager with nearly 4 years of hands-on experience managing WordPress infrastructure across 11 production domains — performance monitoring, Technical SEO tracking, hosting coordination, and Microsoft 365 integration. Built automated reporting systems (Python, Django/Flask) tracking SEO, traffic, and content KPIs in near real-time. Comfortable owning a site's operational health end-to-end and reporting on it to stakeholders.",
+      "job1_bullets": [
+        "Deployed performance monitoring dashboards tracking SEO, traffic, and content KPIs in near real-time across an 11-domain web portfolio",
+        "Engineered automated reporting systems using Python (Django/Flask) processing data across all 11 domains, reducing manual reporting time by 4+ hours/week",
+        "Integrated data pipelines from multiple sources (MySQL, PostgreSQL, REST APIs), consolidating reporting for the full domain portfolio into a unified analytics infrastructure",
+        "Administered Microsoft 365 tenant (user provisioning, licensing, security policies) supporting web/IT operations for a team of 10+"
+      ],
+      "job2_bullets": [
+        "Built user-friendly interfaces displaying key performance indicators for project management platforms serving 50+ concurrent users",
+        "Conducted data quality assurance and pipeline maintenance ensuring integrity across all reporting outputs"
+      ],
+      "project_title": "Multi-Domain Web Monitoring Infrastructure",
+      "project_sub": "The KnowHow Research And Consulting",
+      "project_year": "2024–2026",
+      "project_bullets": [
+        "Consolidated SEO, traffic, and content performance monitoring for 11 production web domains into a single near-real-time reporting layer",
+        "Automated recurring reporting workflows (Python, Django/Flask), removing 4+ hours/week of manual work",
+        "Coordinated hosting, uptime, and data access governance in collaboration with the Microsoft 365 administration layer"
+      ],
+      "skills": [
+        [
+          "Web Operations",
+          "WordPress administration, hosting coordination, uptime monitoring, DNS/SSL awareness"
+        ],
+        [
+          "Reporting & Monitoring",
+          "SEO/traffic/content KPI dashboards, near-real-time performance tracking"
+        ],
+        [
+          "Automation",
+          "Python, Django, Flask, automated reporting pipelines"
+        ],
+        [
+          "Data Integration",
+          "MySQL, PostgreSQL, REST APIs, multi-domain data consolidation"
+        ],
+        [
+          "Collaboration Tools",
+          "Microsoft 365 Admin, Teams, cross-functional stakeholder reporting"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Streamlit, Jupyter Notebook"
+        ]
+      ]
+    },
+    "m365-sharepoint": {
+      "title": "MICROSOFT 365 / SHAREPOINT ADMIN",
+      "target_dir": "Bloc 1 — Python & Data Science Fundamentals",
+      "filename": "CV_M365_SharePoint_Admin_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Microsoft 365 & SharePoint Administrator with hands-on experience managing a full M365 tenant — user provisioning, licensing, security policies, and data access governance — for a team of 10+. Nearly 4 years of combined IT/data operations experience integrating M365 with external web and reporting infrastructure across 11 business domains.",
+      "job1_bullets": [
+        "Administered Microsoft 365 tenant (user provisioning, licensing, security policies) for a team of 10+, ensuring data access governance",
+        "Integrated the M365 environment with external web hosting and reporting infrastructure across 11 business domains",
+        "Engineered automated reporting systems using Python (Django/Flask), reducing manual reporting time by 4+ hours/week",
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements and deliver data-driven presentations"
+      ],
+      "job2_bullets": [
+        "Managed IT applications and backend systems for project management platforms serving 50+ concurrent users",
+        "Conducted data quality assurance and system optimization ensuring integrity across reporting and collaboration tools"
+      ],
+      "project_title": "M365 Tenant & Data Access Governance",
+      "project_sub": "The KnowHow Research And Consulting",
+      "project_year": "2024–2026",
+      "project_bullets": [
+        "Managed user provisioning, licensing, and security policy configuration for a 10+ person M365 tenant",
+        "Established data access governance rules connecting M365 permissions to external reporting infrastructure",
+        "Onboarded team members onto M365/Teams workflows alongside IT procedure documentation"
+      ],
+      "skills": [
+        [
+          "Microsoft 365 Administration",
+          "M365 Admin Center, user provisioning, licensing, security policies"
+        ],
+        [
+          "SharePoint & Teams",
+          "SharePoint architecture awareness, Teams governance, collaboration workflows"
+        ],
+        [
+          "Data Governance",
+          "Access governance, permission structures, audit-friendly documentation"
+        ],
+        [
+          "Automation",
+          "Python, Django, Flask, automated reporting"
+        ],
+        [
+          "Data Integration",
+          "MySQL, PostgreSQL, REST APIs"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Jupyter Notebook"
+        ]
+      ]
+    },
+    "african-market": {
+      "title": "AFRICAN MARKET SPECIALIST",
+      "target_dir": "Bloc 1 — Python & Data Science Fundamentals",
+      "filename": "CV_African_Market_Specialist_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Bilingual (French/English) professional originally from Cameroon, based in Abu Dhabi, UAE, combining nearly 4 years of Gulf-based data & IT operations experience with direct cultural and linguistic access to francophone African markets. Comfortable bridging technical delivery with cross-border business communication between Gulf and African stakeholders.",
+      "job1_bullets": [
+        "Collaborated cross-functionally with business and technical teams across a multi-domain portfolio to define reporting requirements and deliver data-driven strategic presentations",
+        "Engineered automated reporting systems using Python (Django/Flask) processing data across 11 domains, reducing manual reporting time by 4+ hours/week",
+        "Built and maintained interactive KPI dashboards (Pandas, Matplotlib, Seaborn, Plotly) translating complex datasets into actionable insights for senior stakeholders"
+      ],
+      "job2_bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery decisions and resource allocation for 50+ users",
+        "Collaborated with cross-functional teams across the Dubai/Abu Dhabi region on data solutions delivery"
+      ],
+      "project_title": "DataSphere360 — Customer Intelligence System",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Built an end-to-end customer analytics platform (Python, Pandas, Scikit-learn) to segment e-commerce customers and predict churn",
+        "Demonstrates technical delivery capability applicable to market-entry analytics for African/Gulf cross-border business contexts"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent)"
+        ],
+        [
+          "Cross-Cultural Communication",
+          "Francophone Africa market knowledge, Gulf business operations experience"
+        ],
+        [
+          "Data & Reporting",
+          "Python, Pandas, KPI dashboards, stakeholder presentations"
+        ],
+        [
+          "Data Integration",
+          "MySQL, PostgreSQL, REST APIs"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Microsoft 365"
+        ]
+      ]
+    },
+    "ai-trainer-labeler": {
+      "title": "AI TRAINER / DATA LABELER",
+      "target_dir": "Bloc 1 — Python & Data Science Fundamentals",
+      "filename": "CV_AI_Trainer_Data_Labeler_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Bilingual (French/English) AI Trainer / Quality Evaluator candidate combining hands-on professional use of ChatGPT and Claude to design AI-assisted workflows with a healthcare domain background (TheKnowHow.ae). Currently completing a 60-session intensive AI/ML/DS training program (LogicMojo, through Sep 2026) covering prompt engineering and LLM fundamentals, alongside the IBM AI Engineering Professional Certificate.",
+      "job1_bullets": [
+        "Used ChatGPT and Claude professionally to design AI-assisted content and reporting workflows for a healthcare-adjacent web platform",
+        "Developed an automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking",
+        "Applied statistical analysis (hypothesis testing, correlation, distribution analysis) to validate data quality across reporting pipelines"
+      ],
+      "job2_bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery decisions for 50+ users"
+      ],
+      "project_title": "DataSphere360 — Structured Evaluation Reporting",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Built an automated EDA reporting pipeline generating structured, criteria-based technical and business reports from raw data",
+        "Demonstrates the structured, criteria-driven evaluation habit directly transferable to AI output quality assessment"
+      ],
+      "skills": [
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent) — bilingual evaluation capability"
+        ],
+        [
+          "AI Tools (professional use)",
+          "ChatGPT, Claude — AI-assisted workflow design"
+        ],
+        [
+          "Prompt Engineering (in training)",
+          "LogicMojo intensive training — prompt engineering, LLM fundamentals"
+        ],
+        [
+          "Domain Background",
+          "Healthcare-adjacent content and reporting (TheKnowHow.ae)"
+        ],
+        [
+          "Analytical Rigor",
+          "Statistical validation, structured EDA reporting, data quality checks"
+        ],
+        [
+          "Tools",
+          "Python, Git & GitHub, Jupyter Notebook"
+        ]
+      ]
+    },
+    "technical-writer": {
+      "title": "TECHNICAL WRITER",
+      "target_dir": "Bloc 2 — Mathematics for ML",
+      "filename": "CV_Technical_Writer_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Bilingual (French/English) Technical Writer with a hands-on engineering background in Python, data pipelines, and AI-assisted workflows — enabling accurate documentation of complex technical systems. Nearly 4 years authoring IT procedure guides, M365 onboarding documentation, and data pipeline specifications. Currently advancing in ML/AI (LogicMojo, 2026), positioning to document AI systems, LLM APIs, and RAG architectures next.",
+      "job1_bullets": [
+        "Authored IT procedure guides and Microsoft 365 onboarding documentation for a team of 10+",
+        "Documented data pipeline architecture and reporting specifications across an 11-domain infrastructure",
+        "Translated technical processes (automated reporting, KPI dashboards) into clear, structured content for both technical and non-technical stakeholders"
+      ],
+      "job2_bullets": [
+        "Documented data solutions and KPI visualization features for project management platforms serving 50+ concurrent users"
+      ],
+      "project_title": "DataSphere360 — Technical Documentation",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Authored a 7-section technical EDA report and a 15-chart business analysis report, auto-generated as structured HTML/Plotly documentation",
+        "Wrote framework documentation covering pipeline architecture, feature engineering logic, and reuse instructions"
+      ],
+      "skills": [
+        [
+          "Technical Writing",
+          "IT procedure guides, onboarding documentation, pipeline specifications, structured reports"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent)"
+        ],
+        [
+          "Technical Background",
+          "Python, Pandas, REST APIs, WordPress"
+        ],
+        [
+          "AI Documentation (in training)",
+          "LLM APIs, RAG architectures, prompt engineering"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Markdown, Jupyter Notebook"
+        ]
+      ]
+    },
+    "ai-automation-workflow": {
+      "title": "AI AUTOMATION / WORKFLOW ENGINEER",
+      "target_dir": "Bloc 2 — Mathematics for ML",
+      "filename": "CV_AI_Automation_Workflow_Engineer_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — LangChain/CrewAI/LangGraph marqués \"in training\", pas encore de projet d'agent publié.",
+      "summary": "Automation-focused engineer who designs AI-assisted workflows and automation systems that remove manual processes. Built an automated lead capture and qualification system with dynamic forms and analytics tracking, and Python reporting pipelines saving 4+ hours/week. Currently completing advanced training in LangChain, CrewAI, LangGraph, and multi-agent systems (LogicMojo, through Sep 2026). Bilingual (French/English).",
+      "job1_bullets": [
+        "Developed an automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking",
+        "Engineered automated reporting systems using Python (Django/Flask) processing data across 11 domains, reducing manual reporting time by 4+ hours/week",
+        "Designed AI-assisted content and reporting workflows using ChatGPT and Claude",
+        "Integrated data pipelines from multiple sources (MySQL, PostgreSQL, REST APIs) into a unified automated reporting infrastructure"
+      ],
+      "job2_bullets": [
+        "Built and optimized ETL pipelines integrating third-party APIs and databases (MySQL/PostgreSQL) for real-time project tracking"
+      ],
+      "project_title": "DataSphere360 — Automated Pipeline Framework",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Built a fully modular, reusable automation framework: ingestion → cleaning → integration → feature engineering → automated report generation, runnable end-to-end with a single function call",
+        "Architected with a stub pattern enabling the pipeline to run at any completion stage — designed for continuous, low-maintenance automation"
+      ],
+      "skills": [
+        [
+          "Workflow Automation",
+          "Dynamic forms, lead qualification automation, analytics tracking, Python (Django/Flask)"
+        ],
+        [
+          "AI-Assisted Workflows",
+          "ChatGPT, Claude — professional workflow design"
+        ],
+        [
+          "Agents & Orchestration (in training)",
+          "LangChain, CrewAI, LangGraph, multi-agent systems, tool calling"
+        ],
+        [
+          "Data Pipeline",
+          "Python, Pandas, SQLAlchemy, PostgreSQL, MySQL, REST APIs"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Streamlit, Jupyter Notebook"
+        ]
+      ]
+    },
+    "solutions-consultant": {
+      "title": "SOLUTIONS CONSULTANT / PRE-SALES",
+      "target_dir": "Bloc 2 — Mathematics for ML",
+      "filename": "CV_Solutions_Consultant_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré.",
+      "summary": "Bilingual (French/English) technical professional who bridges engineering delivery and business communication — translating KPI dashboards, automation systems, and AI-assisted workflows into clear value propositions for non-technical stakeholders. Nearly 4 years presenting technical work to senior decision-makers across a multi-domain organization.",
+      "job1_bullets": [
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements and deliver data-driven strategic presentations",
+        "Built and maintained interactive KPI dashboards (Pandas, Matplotlib, Seaborn, Plotly), translating complex datasets into actionable business insights for senior stakeholders",
+        "Designed AI-assisted workflows (ChatGPT, Claude) and presented their business value to non-technical stakeholders"
+      ],
+      "job2_bullets": [
+        "Built user-friendly interfaces displaying key performance indicators, improving data accessibility for non-technical managers",
+        "Performed data analysis and reporting to support project delivery decisions for 50+ users"
+      ],
+      "project_title": "DataSphere360 — Stakeholder-Facing Analytics",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Auto-generated business-facing EDA reports (15-chart business analysis) designed for non-technical stakeholder consumption",
+        "Translated churn prediction model outputs into segmentation insights (new vs. repeat, high vs. low value customers) for business audiences"
+      ],
+      "skills": [
+        [
+          "Business Communication",
+          "Stakeholder presentations, technical-to-business translation, demo delivery"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent)"
+        ],
+        [
+          "Technical Breadth",
+          "Python, data pipelines, AI-assisted workflows, Microsoft 365"
+        ],
+        [
+          "Analytics",
+          "KPI dashboards, Pandas, Plotly, Matplotlib, Seaborn"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Streamlit"
+        ]
+      ]
+    },
+    "edtech-specialist": {
+      "title": "EDTECH SPECIALIST",
+      "target_dir": "Bloc 2 — Mathematics for ML",
+      "filename": "CV_EdTech_Specialist_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — aucune formation/cours publié à ce jour, à valider avant de postuler sur ce rôle.",
+      "summary": "Bilingual (French/English) technical professional with a natural ability to break down complex technical concepts for non-technical audiences, developed through years of presenting data pipelines, AI workflows, and reporting systems to business stakeholders. Currently completing intensive AI/ML/DS training (LogicMojo, 2026) firsthand — direct, current experience as a learner in the exact subject matter EdTech content would need to teach. French fluency gives direct access to the underserved francophone African education market.",
+      "job1_bullets": [
+        "Translated complex technical systems (data pipelines, KPI dashboards, AI workflows) into clear explanations for non-technical business stakeholders",
+        "Authored IT procedure guides and onboarding documentation designed for non-technical staff",
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements"
+      ],
+      "job2_bullets": [
+        "Built user-friendly interfaces displaying key performance indicators, improving data accessibility for non-technical managers"
+      ],
+      "project_title": "DataSphere360 — Documentation for Non-Technical Audiences",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Authored a 15-chart business-facing EDA report designed to be understood without a technical background",
+        "Structured framework documentation to be reusable and understandable by future contributors"
+      ],
+      "skills": [
+        [
+          "Teaching-Adjacent Skills",
+          "Concept simplification, stakeholder-facing documentation, structured explanation"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2) — francophone Africa education market access, English (fluent)"
+        ],
+        [
+          "Current Learner Perspective",
+          "Actively completing AI/ML/DS training (LogicMojo, IBM AI Engineering Cert)"
+        ],
+        [
+          "Technical Background",
+          "Python, Pandas, data pipelines, AI-assisted workflows"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Jupyter Notebook, Streamlit"
+        ]
+      ]
+    },
+    "healthtech-consultant": {
+      "title": "HEALTHTECH CONSULTANT",
+      "target_dir": "Bloc 1 — Python & Data Science Fundamentals",
+      "filename": "CV_HealthTech_Consultant_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — poste salarié (Data & Reporting Analyst), pas fondateur.",
+      "summary": "Data & Reporting Analyst at The KnowHow Research And Consulting, operating TheKnowHow.ae — a healthcare platform focused on second medical opinions, precision medicine, and medical tourism. Nearly 4 years combining hands-on HealthTech operations with technical and AI skills: healthcare SEO, AI-assisted medical content workflows, and the reporting/automation infrastructure supporting patient acquisition across the UAE, Europe, and Africa.",
+      "job1_bullets": [
+        "Designed and executed Technical SEO, Semantic SEO, and content architecture for TheKnowHow.ae, a healthcare platform targeting patients across the UAE, Europe, and Africa",
+        "Implemented AI-assisted medical content workflows (ChatGPT, Claude) supporting patient-facing communication",
+        "Developed an automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking",
+        "Deployed performance monitoring dashboards tracking SEO, traffic, and content KPIs in near real-time for the platform"
+      ],
+      "job2_bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery decisions for 50+ users"
+      ],
+      "project_title": "TheKnowHow.ae — Reporting & AI Content Infrastructure",
+      "project_sub": "The KnowHow Research And Consulting",
+      "project_year": "2024–2026",
+      "project_bullets": [
+        "Built and maintained the SEO, traffic, and content KPI monitoring layer for a live healthcare platform",
+        "Designed AI-assisted content workflows supporting patient communication in a regulated, sensitive domain",
+        "Automated lead capture and qualification for patient inquiries across UAE, Europe, and Africa markets"
+      ],
+      "skills": [
+        [
+          "HealthTech Operations",
+          "Patient acquisition funnels, healthcare SEO, patient communication workflows"
+        ],
+        [
+          "AI-Assisted Content",
+          "ChatGPT, Claude — medical content workflow design"
+        ],
+        [
+          "Reporting & Monitoring",
+          "SEO/traffic/content KPI dashboards, near-real-time tracking"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent) — UAE, Europe, francophone Africa markets"
+        ],
+        [
+          "Technical Background",
+          "Python, Django/Flask, MySQL, PostgreSQL, REST APIs"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Microsoft 365"
+        ]
+      ]
+    },
+    "product-manager": {
+      "title": "PRODUCT MANAGER / TECHNICAL PM",
+      "target_dir": "Bloc 3 — Machine Learning Supervisé",
+      "filename": "CV_Product_Manager_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — poste salarié (Data & Reporting Analyst) qui a influencé des décisions produit via la data, pas fondateur.",
+      "summary": "Data & Reporting Analyst who drives product-facing decisions through data — translating KPI dashboards, user/traffic patterns, and stakeholder requirements into concrete priorities for TheKnowHow.ae, a live healthcare platform. Nearly 4 years writing requirements that engineers implement, working across technical and business stakeholders in French and English. Currently deepening AI/ML technical understanding (LogicMojo, 2026) to define AI product requirements with real technical grounding.",
+      "job1_bullets": [
+        "Collaborated cross-functionally with business and technical teams to define reporting requirements and deliver data-driven strategic presentations",
+        "Built and maintained interactive KPI dashboards (Pandas, Matplotlib, Seaborn, Plotly), translating complex datasets into product and business decisions for senior stakeholders",
+        "Developed an automated lead capture and qualification system — from requirement definition through workflow automation and analytics tracking",
+        "Deployed performance monitoring covering SEO, traffic, and content KPIs across an 11-domain product portfolio"
+      ],
+      "job2_bullets": [
+        "Performed data analysis, modeling, and reporting to support project delivery decisions and resource allocation for 50+ users",
+        "Built user-friendly interfaces displaying key performance indicators, improving data accessibility for non-technical managers"
+      ],
+      "project_title": "DataSphere360 — Data-Driven Decision Framework",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Built an end-to-end analytics platform translating raw transactional data into segmentation and churn insights usable for product prioritization",
+        "Designed stakeholder-facing reporting (15-chart business EDA) to make data-driven decisions accessible to non-technical audiences"
+      ],
+      "skills": [
+        [
+          "Product-Adjacent Skills",
+          "Requirement definition, cross-functional collaboration, metrics-driven prioritization"
+        ],
+        [
+          "Communication",
+          "Technical-to-business translation, stakeholder presentations, spec writing"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent)"
+        ],
+        [
+          "Data & AI Literacy",
+          "KPI dashboards, Python, AI-assisted workflows (in training: LLMs, RAG)"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Microsoft 365, Streamlit"
+        ]
+      ]
+    },
+    "startup-cofounder": {
+      "title": "STARTUP CO-FOUNDER / FOUNDING ENGINEER",
+      "target_dir": "Bloc 3 — Machine Learning Supervisé",
+      "filename": "CV_Startup_Cofounder_Erman_Tagaintchuem.docx",
+      "post_generation_note": "CV généré — poste salarié (Data & Reporting Analyst) qui a construit/opéré une partie significative de TheKnowHow.ae, pas fondateur.",
+      "summary": "Bilingual (French/English) builder based in Abu Dhabi, UAE. As Data & Reporting Analyst at The KnowHow Research And Consulting, built and operated significant parts of TheKnowHow.ae's technical, SEO, and AI-workflow infrastructure — hands-on execution across the full stack of a live product, not just analysis. Currently deepening ML/AI/DS skills (LogicMojo, 60 sessions, 2026). Brings execution speed and access to francophone African and Gulf markets.",
+      "job1_bullets": [
+        "Built and maintained SEO, traffic, and content KPI monitoring infrastructure for a live healthcare platform (TheKnowHow.ae)",
+        "Designed and implemented AI-assisted content and reporting workflows using ChatGPT and Claude",
+        "Developed an automated lead capture and qualification system with dynamic forms, workflow automation, and analytics tracking — end-to-end, from requirement to deployment",
+        "Engineered automated reporting systems using Python (Django/Flask) across 11 domains, reducing manual work by 4+ hours/week"
+      ],
+      "job2_bullets": [
+        "Developed custom data solutions and KPI visualization features for project management platforms serving 50+ concurrent users"
+      ],
+      "project_title": "DataSphere360 — Independently Built Framework",
+      "project_sub": "Personal Framework Project",
+      "project_year": "2026",
+      "project_bullets": [
+        "Designed, built, and shipped a modular automation framework independently, end-to-end: ingestion, cleaning, integration, feature engineering, reporting",
+        "Demonstrates the ability to own a technical product from architecture to delivery without a team"
+      ],
+      "skills": [
+        [
+          "Execution",
+          "End-to-end ownership: requirements → build → deploy, independently and in small teams"
+        ],
+        [
+          "Technical Breadth",
+          "Python, Django/Flask, data pipelines, AI-assisted workflows"
+        ],
+        [
+          "Growth-Adjacent",
+          "SEO, content strategy, lead capture automation"
+        ],
+        [
+          "Languages",
+          "French (native, C1/C2), English (fluent) — francophone Africa + Gulf market access"
+        ],
+        [
+          "Tools",
+          "Git & GitHub, Microsoft 365, Streamlit"
+        ]
+      ]
+    }
+  }
+}

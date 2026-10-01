@@ -1,0 +1,8 @@
+{
+  "_note": "Comptes Gmail interrogés pour les alertes emploi Indeed/LinkedIn. Correction du 2026-08-15 : ewilliantagain@gmail.com a en fait de vraies alertes actives (7 des 10 candidatures du passage du 2026-08-15 en venaient -- comparé en isolant aiengineernlp seul, qui n'en a fourni que 3) -- l'ancienne note ('aucune alerte configurée dessus', écrite le 2026-08-14) était devenue fausse, corrigée ici plutôt que laissée trompeuse. Précision : ce sont uniquement des alertes LinkedIn (6 emails trouvés en vérification directe) -- zéro alerte Indeed sur ce compte (0 email trouvé), donc les 7 candidatures venaient entièrement de LinkedIn.",
+  "accounts": [
+    "aiengineernlp@gmail.com",
+    "ewilliantagain@gmail.com",
+    "ermanwillian.canada@gmail.com"
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "ML / AI Engineer",
+  "summary": "Data professional with nearly 4 years of experience building automated data pipelines and analytical solutions, now transitioning into Machine Learning and AI Engineering. Demonstrated ability to design end-to-end workflows from raw data ingestion through feature engineering, statistical analysis, and model preparation. Currently completing intensive ML/AI training (CodeCademy ML/AI Engineer certification completed; IBM AI Engineering Professional Certificate and LogicMojo batch training in progress through 2026) with hands-on experience in supervised learning algorithms, model evaluation metrics, and scalable data infrastructure.",
+  "experiences": [
+    {
+      "position_title": "Data & Reporting Analyst",
+      "tailored_bullets": [
+        "Designed automated data pipelines using Python (Pandas, SQLAlchemy) — from PostgreSQL ingestion to multi-table integration, preparing clean datasets for ML model consumption",
+        "Applied feature engineering techniques: temporal feature extraction, date deltas, categorical encoding (one-hot), and business aggregations — core preprocessing for machine learning workflows",
+        "Conducted structured Exploratory Data Analysis (EDA) including missing value detection, distribution analysis, correlation heatmaps (Pearson, Spearman), and outlier identification — critical steps in ML model preparation",
+        "Consolidated multi-source data (MySQL, PostgreSQL, APIs) into unified analytics infrastructure supporting downstream model training pipelines"
+      ]
+    },
+    {
+      "position_title": "IT Applications Manager / Data & Backend Developer",
+      "tailored_bullets": [
+        "Performed end-to-end data analysis and modeling to support decision-making for 50+ concurrent platform users",
+        "Integrated third-party APIs and databases (MySQL/PostgreSQL) into scalable data tracking solutions, establishing data infrastructure patterns applicable to ML model deployment",
+        "Conducted data quality assurance and pipeline optimization, maintaining data integrity essential for reliable model training"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Machine Learning & AI",
+      "items": [
+        "Scikit-learn",
+        "Supervised learning (Random Forest, SVM, KNN, Naive Bayes)",
+        "Model evaluation (ROC-AUC, F1-Score)",
+        "Hyperparameter tuning (GridSearch)"
+      ]
+    },
+    {
+      "category": "Data Pipeline & Engineering",
+      "items": [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "SQLAlchemy",
+        "PostgreSQL",
+        "MySQL",
+        "CSV/JSON processing"
+      ]
+    },
+    {
+      "category": "Feature Engineering & Statistics",
+      "items": [
+        "Temporal feature extraction",
+        "date deltas",
+        "one-hot encoding",
+        "groupby aggregations",
+        "Hypothesis testing (Z-test, T-test, Chi-square)",
+        "correlation analysis (Pearson, Spearman)",
+        "outlier detection"
+      ]
+    },
+    {
+      "category": "Visualization & EDA",
+      "items": [
+        "Plotly",
+        "Matplotlib",
+        "Seaborn",
+        "HTML report generation",
+        "heatmaps",
+        "distribution analysis"
+      ]
+    },
+    {
+      "category": "Development & Deployment",
+      "items": [
+        "Flask",
+        "Django",
+        "RESTful APIs",
+        "Git & GitHub",
+        "Streamlit"
+      ]
+    }
+  ],
+  "key_project": {
+    "title": "DataSphere360 — E-commerce Customer Intelligence System",
+    "bullets": [
+      "Built fully automated, reusable ML-ready data pipeline in Python: PostgreSQL ingestion → automated cleaning → multi-table integration (9 tables, 112,650 rows, auto FK/PK detection)",
+      "Engineered 81 features automatically (temporal extraction, 15 date-delta calculations, one-hot encoding) plus 5 business features (total order value, delivery time, items per order, customer frequency, LTV) — production-ready feature set for predictive modeling",
+      "Generated automated EDA reports (HTML/Plotly): 7-section technical report + 15-chart business report covering distribution analysis, correlation patterns, and outlier detection — standard ML exploratory workflow",
+      "Designed framework with stub pattern enabling iterative development and pipeline execution at any completion stage — architecture suitable for continuous model retraining"
+    ]
+  },
+  "coverage_notes": [
+    "Deep Learning frameworks (TensorFlow, PyTorch, Keras) not mentioned in base profile — typical requirement for ML/AI Engineer roles involving neural networks",
+    "NLP libraries (spaCy, NLTK, Hugging Face Transformers) absent — relevant for many modern AI engineering positions",
+    "Computer Vision libraries (OpenCV, PIL) not present — common in AI engineer job descriptions",
+    "MLOps tools (MLflow, Kubeflow, Docker, Kubernetes) not mentioned — increasingly expected for production ML deployment",
+    "Cloud ML platforms (AWS SageMaker, Azure ML, GCP AI Platform) not in profile — often required for scalable AI engineering",
+    "Advanced model architectures (CNNs, RNNs, LSTMs, Transformers) not covered — base profile shows foundational supervised learning only",
+    "Big Data tools (Spark, Hadoop) not mentioned — relevant for large-scale ML workloads",
+    "No production ML deployment or model monitoring experience explicitly documented"
+  ]
+}
